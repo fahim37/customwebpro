@@ -43,6 +43,6 @@ Run the public collector again with `node scripts/collect-content.mjs`.
 
 Contact follows the original Fiverr profile. Visitors prepare and copy their brief, then send it on Fiverr. There is no message-delivery backend.
 
-Motion respects reduced-motion preferences. The visible pause control freezes scroll effects and decorative animation. Portfolio cards use a regular layout on mobile and for reduced motion; native scrolling is preserved throughout.
+Motion respects reduced-motion preferences. The visible pause control freezes scroll effects and decorative animation. Portfolio cards stack on desktop, phones, and tablets, with a vertical card layout on smaller screens. Short landscape viewports and reduced motion use ordinary flow so content remains reachable. Native scrolling is preserved throughout.
 
 This is a local implementation. No production domain or WordPress installation has been changed.

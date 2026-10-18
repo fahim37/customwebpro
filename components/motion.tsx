@@ -137,7 +137,10 @@ export default function Motion() {
       ).map((element) => {
         const style = window.getComputedStyle(element);
         const gap = numberOr(style.rowGap, 0);
-        const top = numberOr(element.dataset.stackTop, 118);
+        const top = numberOr(
+          style.getPropertyValue("--stack-top"),
+          numberOr(element.dataset.stackTop, 118),
+        );
         const step = numberOr(style.getPropertyValue("--stack-step"), 36);
         let offset =
           numberOr(style.paddingTop, 0) + numberOr(style.borderTopWidth, 0);

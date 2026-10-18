@@ -1,0 +1,203 @@
+.about-grid.about-editorial {
+  grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr);
+  column-gap: clamp(40px, 7vw, 110px);
+  row-gap: 56px;
+  align-items: start;
+}
+
+.about-editorial .about-editorial-heading,
+.about-editorial .about-copy {
+  min-width: 0;
+}
+
+.about-editorial .about-editorial-heading > h2 {
+  max-width: 12ch;
+  font-size: clamp(48px, 5.2vw, 78px);
+  line-height: 1.06;
+  letter-spacing: -0.06em;
+}
+
+.about-editorial .about-editorial-heading::after {
+  content: "";
+  display: block;
+  width: 58px;
+  height: 2px;
+  margin-top: 36px;
+  background: var(--blue);
+}
+
+.about-editorial .about-copy > p {
+  max-width: none;
+  margin-top: 19px;
+  font-size: 16px;
+  line-height: 1.85;
+}
+
+.about-editorial .about-copy > .about-lead {
+  margin-top: 0;
+  font-size: clamp(20px, 1.8vw, 25px);
+  line-height: 1.5;
+  letter-spacing: -0.035em;
+}
+
+.about-editorial .about-copy > .text-link {
+  min-height: 44px;
+  margin-top: 22px;
+  font-size: 14px;
+}
+
+.about-editorial .about-stats {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0;
+  margin: 0;
+  padding-top: 34px;
+  border-top: 1px solid var(--line);
+}
+
+.about-editorial .about-stats > div {
+  min-width: 0;
+  gap: 13px;
+  padding-left: clamp(24px, 5vw, 72px);
+}
+
+.about-editorial .about-stats > div:first-child {
+  padding-left: 0;
+}
+
+.about-editorial .about-stats > div + div {
+  border-left: 1px solid var(--line);
+}
+
+.about-editorial .about-stats strong {
+  font-size: clamp(50px, 5.6vw, 78px);
+  font-weight: 500;
+  letter-spacing: -0.065em;
+}
+
+.about-editorial .about-stats strong > span {
+  font-size: 0.57em;
+  letter-spacing: -0.04em;
+}
+
+.about-editorial .about-stats > div > span {
+  font-size: 10px;
+  line-height: 1.5;
+  letter-spacing: 0.09em;
+}
+
+.about-type-heading {
+  position: relative;
+  display: grid;
+}
+.about-type-heading > span {
+  grid-area: 1 / 1;
+  min-width: 0;
+}
+.about-type-heading .about-type-line {
+  display: block;
+  min-height: 1.06em;
+}
+.about-type-heading .about-type-sizer {
+  display: grid;
+  visibility: hidden;
+  pointer-events: none;
+}
+.about-type-sizer > span {
+  grid-area: 1 / 1;
+  min-width: 0;
+}
+.about-type-heading .about-type-animated {
+  visibility: hidden;
+}
+.about-type-heading[data-typing] .about-type-fallback {
+  clip-path: inset(50%);
+}
+.about-type-heading[data-typing] .about-type-animated {
+  visibility: visible;
+}
+.about-type-caret {
+  display: inline-block;
+  width: 0.035em;
+  height: 0.85em;
+  margin-left: 0.07em;
+  background: var(--blue);
+  vertical-align: -0.06em;
+  animation: about-caret-blink 950ms step-end infinite;
+}
+.about-type-caret-sizer {
+  animation: none;
+}
+.about-type-heading[data-typing="paused"] .about-type-caret,
+.motion-paused .about-type-caret {
+  animation: none;
+}
+@keyframes about-caret-blink {
+  0%, 45%, 100% { opacity: 1; }
+  46%, 95% { opacity: 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .about-type-heading[data-typing] .about-type-fallback { clip-path: none; }
+  .about-type-heading[data-typing] .about-type-animated { visibility: hidden; }
+  .about-type-caret { animation: none; }
+}
+
+@media (max-width: 800px) {
+  .about-grid.about-editorial {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 34px;
+  }
+  .about-editorial .about-editorial-heading > h2 {
+    max-width: 14ch;
+    font-size: clamp(48px, 7vw, 68px);
+  }
+  .about-editorial .about-editorial-heading::after {
+    margin-top: 27px;
+  }
+  .about-editorial .about-copy {
+    max-width: 640px;
+  }
+  .about-editorial .about-stats {
+    padding-top: 29px;
+  }
+  .about-editorial .about-stats > div {
+    padding-left: 25px;
+  }
+  .about-editorial .about-stats strong {
+    font-size: clamp(44px, 7vw, 58px);
+  }
+  .about-editorial .about-stats > div > span {
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-grid.about-editorial {
+    gap: 29px;
+  }
+  .about-editorial .about-editorial-heading > h2 {
+    font-size: 46px;
+  }
+  .about-editorial .about-copy > p {
+    font-size: 15px;
+  }
+  .about-editorial .about-copy > .about-lead {
+    font-size: 21px;
+  }
+  .about-editorial .about-copy > .text-link {
+    margin-top: 17px;
+    font-size: 13px;
+  }
+  .about-editorial .about-stats > div {
+    gap: 10px;
+    padding-left: 13px;
+  }
+  .about-editorial .about-stats strong {
+    font-size: clamp(32px, 8.6vw, 42px);
+  }
+  .about-editorial .about-stats > div > span {
+    font-size: 8px;
+    letter-spacing: 0.035em;
+  }
+}

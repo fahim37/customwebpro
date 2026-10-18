@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import {
   useEffect,
   useRef,
@@ -31,9 +32,11 @@ import ProjectBrief from "./project-brief";
 import sourceContent from "@/research/content-catalog.json";
 import Manifesto from "./manifesto";
 import TechnologyStack from "./technology-stack";
+import AboutHeadline from "./about-headline";
 import "./service-panel.css";
 import "./brand.css";
 import "./project-stack.css";
+import "./about-layout.css";
 
 const fiverr = "https://www.fiverr.com/customweb_pro";
 const imageRoot = "/images/original/";
@@ -747,14 +750,11 @@ export default function Agency() {
           data-scroll-section
         >
           <SectionLabel number="03">THE HUMAN BEHIND THE CODE</SectionLabel>
-          <div className="about-grid">
-            <FounderPortrait />
+          <div className="about-grid about-editorial">
+            <div className="about-editorial-heading" data-reveal>
+              <AboutHeadline />
+            </div>
             <div className="about-copy" data-reveal>
-              <h2>
-                Small studio.
-                <br />
-                Big on <span className="serif">possibility.</span>
-              </h2>
               <p className="about-lead">
                 Hey, I’m Biplob. I build the kind of digital things that help
                 good businesses become great ones.
@@ -778,25 +778,25 @@ export default function Agency() {
               >
                 A little more about me on Fiverr <ArrowUpRight size={17} />
               </a>
-              <div className="about-stats">
-                <div>
-                  <strong>
-                    6<span>+</span>
-                  </strong>
-                  <span>YEARS OF CRAFT</span>
-                </div>
-                <div>
-                  <strong>
-                    1.5<span>K+</span>
-                  </strong>
-                  <span>CLIENTS TRUSTED US</span>
-                </div>
-                <div>
-                  <strong>
-                    4.9<span>/5</span>
-                  </strong>
-                  <span>AI GIG RATING</span>
-                </div>
+            </div>
+            <div className="about-stats" data-reveal>
+              <div>
+                <strong>
+                  6<span>+</span>
+                </strong>
+                <span>YEARS OF CRAFT</span>
+              </div>
+              <div>
+                <strong>
+                  1.5<span>K+</span>
+                </strong>
+                <span>CLIENTS TRUSTED US</span>
+              </div>
+              <div>
+                <strong>
+                  4.9<span>/5</span>
+                </strong>
+                <span>AI GIG RATING</span>
               </div>
             </div>
           </div>
@@ -1220,14 +1220,12 @@ export default function Agency() {
               </div>
             </div>
             <div className="project-dialog-links">
-              <a
+              <Link
                 className="button button-blue"
-                href={activeProject.url}
-                target="_blank"
-                rel="noreferrer"
+                href={new URL(activeProject.url).pathname}
               >
-                Original project details <ArrowUpRight size={17} />
-              </a>
+                View full case study <ArrowUpRight size={17} />
+              </Link>
               <a
                 className="text-link"
                 href={fiverr}

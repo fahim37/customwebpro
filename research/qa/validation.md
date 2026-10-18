@@ -39,3 +39,23 @@ No production deployment was performed. Contact continues through the original F
 - At 375px, technology labels wrap into two columns and document scrollWidth equals clientWidth (365px). Mobile-app heading and animated panel remain readable.
 - `npm run lint` and `npm run build` passed after integrating the deck, service animations, and icons.
 - Screenshots: `real-card-deck.jpg`, `technology-icons-desktop.jpg`, `technology-icons-mobile.jpg`, `animated-service-mobile.jpg`.
+
+## Mobile stacking correction
+
+- Enabled the layered deck below 1000px with vertically arranged previews and content. At 375x812 and 320x568, cards pin at 88px, 118px, 148px, and 178px; all preceding spines remain visible and no horizontal overflow occurs.
+- Tablet 768x1024 also stacks; short landscape 812x375 uses ordinary flow with no hold spacer so the whole card stays reachable.
+- Motion now reads the responsive CSS pin offset. Pointer focus after closing the first project keeps z-index values 1, 2, 3, 4; keyboard-visible focus can still raise a card for access.
+- Mobile project dialog opening/closing verified. Screenshots: `mobile-card-stack.jpg`, `mobile-card-stack-small.jpg`.
+
+## About section refinement
+
+- Removed the duplicate About portrait; the hero portrait remains. About uses an editorial headline/copy layout with a full-width stats row.
+- The heading types once, then continuously cycles its last phrase through possibility, bold ideas, and real impact. Mobile DOM checks show changing text with a stable 146.25px heading height and no horizontal overflow.
+- Offscreen/hidden-tab timers stop; pause preserves progress and reduced motion uses the static accessible heading. Screenshot: `about-typing-mobile.jpg`.
+
+## Internal case studies
+
+- Added four original project slugs as in-app pages, including source descriptions, facts, and all gallery assets. Project dialog action now uses an internal Next Link rather than opening WordPress.
+- Browser clicked the AI writing project's full case-study action and stayed on localhost. Desktop and 375px mobile layouts verified; mobile scrollWidth equals clientWidth (365px), and every case-study image loaded.
+- Static production build generated all four routes; unknown slugs use notFound. Final lint and production build passed.
+- Screenshots: `internal-case-study-desktop.jpg`, `internal-case-study-mobile.jpg`.
