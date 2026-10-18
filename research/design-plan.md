@@ -52,3 +52,11 @@ The hero uses Biplob's original portrait composition instead of the initial 3D c
 ## Logo and green theme refinement
 
 Replaced the temporary wordmark with the original `Screenshot-removebg-preview.png` in the header and footer. The primary theme is now deep green (#075344), with mint highlights and sage surfaces. The favicon uses the original logo mark. Replaced the crowded service-panel wireframe with a contained service graphic; service headings now wrap within zero-minimum grid columns, including on mobile.
+
+## Stronger scroll direction and portrait sizing
+
+The desktop hero portrait is now approximately16% larger (about632px wide in the full desktop container) with a closer subject crop. Hero copy and portrait move in opposite directions during exit. Work cards use native sticky stacking and recession as each next project approaches. Project images have stronger bounded parallax, and an opposing two-line typography ribbon moves with vertical scroll. Mobile retains readable normal-flow project cards; reduced motion disables pinning and nonessential movement.
+
+## Layered cards and icon details
+
+Each desktop project now has a labeled 36px spine and a progressively lower sticky position, so earlier cards remain visible behind the front card. A short flow spacer holds the completed deck before it leaves the viewport. Service diagrams animate a signal from input through a pulsing central icon to output; the global pause control and reduced-motion preference apply. The technology strip contains exactly React, Next.js, WordPress, and AI & Automation, with locally stored brand SVGs and a workflow symbol. Service selectors use matching Lucide icons.

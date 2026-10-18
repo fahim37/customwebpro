@@ -1,7 +1,13 @@
 "use client";
 
 import Image from "next/image";
-import { useEffect, useRef, useState, type PointerEvent } from "react";
+import {
+  useEffect,
+  useRef,
+  useState,
+  type CSSProperties,
+  type PointerEvent,
+} from "react";
 import {
   ArrowUpRight,
   ArrowDown,
@@ -24,6 +30,7 @@ import Motion from "./motion";
 import ProjectBrief from "./project-brief";
 import sourceContent from "@/research/content-catalog.json";
 import Manifesto from "./manifesto";
+import TechnologyStack from "./technology-stack";
 import "./service-panel.css";
 import "./brand.css";
 import "./project-stack.css";
@@ -541,14 +548,26 @@ export default function Agency() {
             data-reveal
             data-scroll-stack
             data-stack-top="118"
+            style={{ "--stack-count": visibleProjects.length } as CSSProperties}
           >
-            {visibleProjects.map((project) => (
-              <article className="project" key={project.number} data-stack-card>
+            {visibleProjects.map((project, index) => (
+              <article
+                className="project"
+                key={project.number}
+                data-stack-card
+                style={{ "--stack-index": index } as CSSProperties}
+              >
                 <button
                   className="project-button"
                   onClick={() => setActiveProject(project)}
                   aria-label={`View ${project.name}`}
                 >
+                  <span className="project-stack-spine" aria-hidden="true">
+                    <span className="spine-number">{project.number}</span>
+                    <span className="spine-title">{project.name}</span>
+                    <span className="spine-category">{project.category}</span>
+                    <ArrowUpRight size={13} />
+                  </span>
                   <Tilt className={`project-art ${project.color}`}>
                     <div className="project-art-top">
                       <span>CUSTOMWEBPRO — SELECTED WORK</span>
@@ -642,20 +661,26 @@ export default function Agency() {
             </div>
             <div className="services-layout" data-reveal>
               <div className="service-list">
-                {services.map((service, index) => (
-                  <button
-                    key={service.label}
-                    id={`service-tab-${index}`}
-                    className={`service-row ${index === activeService ? "active" : ""}`}
-                    onClick={() => setActiveService(index)}
-                    aria-expanded={index === activeService}
-                    aria-controls="service-detail"
-                  >
-                    <span className="service-number">0{index + 1}</span>
-                    <span>{service.label}</span>
-                    <ArrowUpRight />
-                  </button>
-                ))}
+                {services.map((service, index) => {
+                  const ServiceIcon = service.icon;
+                  return (
+                    <button
+                      key={service.label}
+                      id={`service-tab-${index}`}
+                      className={`service-row ${index === activeService ? "active" : ""}`}
+                      onClick={() => setActiveService(index)}
+                      aria-expanded={index === activeService}
+                      aria-controls="service-detail"
+                    >
+                      <span className="service-number">0{index + 1}</span>
+                      <span className="service-row-label">
+                        <ServiceIcon size={21} strokeWidth={1.6} aria-hidden="true" />
+                        {service.label}
+                      </span>
+                      <ArrowUpRight />
+                    </button>
+                  );
+                })}
               </div>
               <div
                 className="service-detail"
@@ -676,6 +701,11 @@ export default function Agency() {
                     fill="none"
                   >
                     <path d="M72 105H132Q144 105 144 93V88H200M200 88H249Q260 88 260 76V64H328" />
+                    <path
+                      className="service-signal"
+                      pathLength="100"
+                      d="M72 105H132Q144 105 144 93V88H200H249Q260 88 260 76V64H328"
+                    />
                   </svg>
                   <span className="service-visual-node service-node-left">
                     <Code2 size={18} />
@@ -705,16 +735,7 @@ export default function Agency() {
                 </ProjectBrief>
               </div>
             </div>
-            <div className="tech-strip">
-              <span>GOOD TOOLS. BETTER THINKING.</span>
-              <div>
-                <span>React</span>
-                <span>Next.js</span>
-                <span>WordPress</span>
-                <span>AI & Automation</span>
-                <span>Full Stack</span>
-              </div>
-            </div>
+            <TechnologyStack />
           </div>
         </section>
 

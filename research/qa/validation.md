@@ -10,7 +10,7 @@ Validated on 18 October 2026.
 - Mobile layout has no horizontal overflow (document scrollWidth equals clientWidth).
 - Portfolio category filter, project details, service selection, manual reviews, and FAQ expansion verified.
 - Project brief selection, text entry, review, and clipboard copy verified without submitting an inquiry externally.
-- Project dialog custom scrollbar is cobalt; footer actions and close button remain visible while the content scrolls, on desktop and mobile.
+- Project dialog custom scrollbar matches the green theme; footer actions and close button remain visible while the content scrolls, on desktop and mobile.
 - Paused-motion mode keeps the project brief visible and usable.
 - Fresh page load registers staggered reveals; scrolling updates project/portrait parallax and manifesto progress.
 - Reduced-motion behavior reviewed in source; no browser preference was changed during QA.
@@ -18,3 +18,24 @@ Validated on 18 October 2026.
 Screenshots: `desktop-hero.jpg`, `mobile-hero.jpg`, `project-dialog.jpg`, and `scroll-typography.jpg`.
 
 No production deployment was performed. Contact continues through the original Fiverr profile.
+
+## Green branding and stronger motion refinement
+
+- Original logo verified in the header and footer; primary controls now use #075344.
+- Rebuilt service illustration verified at 375px, with a complete two-line mobile-app heading and no horizontal overflow.
+- Desktop hero portrait frame measured 632px wide and 680px high, approximately 16% larger than before.
+- Native hero scrolling verified: at 445px of page scroll, the portrait translates upward about 42px while copy moves downward about 29px.
+- Portfolio stack verified with sticky cards at 118px and scale recession as the following card approaches.
+- Single-result project filtering returns a normal, unpinned card; project dialogs still open and keep actions visible.
+- Mobile cards remain in normal flow. At 375px, document scroll width equals client width (365px).
+- Final lint and production build passed after the refinements.
+- Additional screenshots: `green-large-hero.jpg`, `green-project-stack.jpg`, `service-panel-green-mobile.jpg`, `green-hero-mobile.jpg`.
+
+## Layered deck, animated diagrams, and technology icons
+
+- Desktop projects pin at 118px, 154px, 190px, and 226px. All three earlier labeled spines remain visible behind the final card; flow space holds the complete deck before release.
+- Service diagrams use synchronized signal travel, input/output pulses, and a floating core. Computed transforms and signal offsets change while running; the page pause control sets every diagram loop to paused. Reduced motion disables these loops in CSS.
+- React, Next.js, WordPress, and AI & Automation appear as the four technology labels with local SVG brand assets and a workflow icon. Service selectors also have matching icons.
+- At 375px, technology labels wrap into two columns and document scrollWidth equals clientWidth (365px). Mobile-app heading and animated panel remain readable.
+- `npm run lint` and `npm run build` passed after integrating the deck, service animations, and icons.
+- Screenshots: `real-card-deck.jpg`, `technology-icons-desktop.jpg`, `technology-icons-mobile.jpg`, `animated-service-mobile.jpg`.

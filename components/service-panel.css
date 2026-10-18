@@ -5,6 +5,21 @@
 .services-section .service-detail {
   min-width: 0;
 }
+.service-row-label {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 0;
+}
+.service-row-label > svg {
+  flex: 0 0 auto;
+  color: #9cbea7;
+  transition: color 0.3s;
+}
+.service-row.active .service-row-label > svg,
+.service-row:hover .service-row-label > svg {
+  color: #c6e6cf;
+}
 .services-section .service-detail > h3 {
   max-width: 24ch;
   white-space: normal;
@@ -67,6 +82,21 @@
   stroke-width: 1;
   stroke-dasharray: 3 5;
 }
+.service-visual-clean .service-connectors path:not(.service-signal) {
+  opacity: 0.75;
+  animation: service-connector-flow 4.8s linear infinite;
+}
+.service-visual-clean .service-connectors .service-signal {
+  stroke: #d2f0dc;
+  stroke-width: 2.3;
+  stroke-linecap: round;
+  stroke-dasharray: 5 105;
+  stroke-dashoffset: 8;
+  opacity: 0;
+  vector-effect: non-scaling-stroke;
+  filter: drop-shadow(0 0 3px #a6d9b399);
+  animation: service-signal-travel 4.8s linear infinite;
+}
 .service-visual-icon {
   position: relative;
   z-index: 1;
@@ -81,6 +111,7 @@
   box-shadow:
     0 8px 25px #11171138,
     inset 0 1px #ffffff18;
+  animation: service-icon-process 4.8s ease-in-out infinite;
 }
 .service-visual-node {
   position: absolute;
@@ -93,25 +124,110 @@
   border-radius: 10px;
   color: #b6d4bd;
   background: #263f2f;
-  animation: service-node-float 6s ease-in-out infinite;
 }
 .service-node-left {
   left: 14%;
   top: 50%;
+  animation: service-node-input 4.8s ease-in-out infinite;
 }
 .service-node-right {
   right: 13%;
   top: 26%;
-  animation-delay: -3s;
+  animation: service-node-output 4.8s ease-in-out infinite;
   color: #b6d4bd;
 }
-@keyframes service-node-float {
-  50% {
-    translate: 0 -5px;
+@keyframes service-connector-flow {
+  to {
+    stroke-dashoffset: -32;
   }
 }
-.motion-paused .service-visual-node {
-  animation-play-state: paused;
+@keyframes service-signal-travel {
+  0%,
+  8% {
+    stroke-dashoffset: 8;
+    opacity: 0;
+  }
+  13% {
+    opacity: 1;
+  }
+  78% {
+    stroke-dashoffset: -104;
+    opacity: 1;
+  }
+  84%,
+  100% {
+    stroke-dashoffset: -104;
+    opacity: 0;
+  }
+}
+@keyframes service-icon-process {
+  0%,
+  30%,
+  65%,
+  100% {
+    transform: translateY(0) scale(1);
+    border-color: #7fa98b;
+    background: #075344;
+    box-shadow:
+      0 8px 25px #11171138,
+      inset 0 1px #ffffff18,
+      0 0 0 0 #b6d4bd00;
+  }
+  43%,
+  50% {
+    transform: translateY(-4px) scale(1.06);
+    border-color: #d2ead8;
+    background: #0b6651;
+    box-shadow:
+      0 10px 28px #11171138,
+      inset 0 1px #ffffff30,
+      0 0 0 8px #b6d4bd16;
+  }
+}
+@keyframes service-node-input {
+  0%,
+  4%,
+  32%,
+  100% {
+    transform: translateY(0) scale(1);
+    border-color: #526c58;
+    color: #b6d4bd;
+    background: #263f2f;
+    box-shadow: 0 0 0 0 #b6d4bd00;
+  }
+  11%,
+  20% {
+    transform: translateY(-2px) scale(1.08);
+    border-color: #c6e6cf;
+    color: #ecf8ef;
+    background: #34654b;
+    box-shadow: 0 0 0 5px #b6d4bd16;
+  }
+}
+@keyframes service-node-output {
+  0%,
+  62%,
+  96%,
+  100% {
+    transform: translateY(0) scale(1);
+    border-color: #526c58;
+    color: #b6d4bd;
+    background: #263f2f;
+    box-shadow: 0 0 0 0 #b6d4bd00;
+  }
+  72%,
+  81% {
+    transform: translateY(-2px) scale(1.08);
+    border-color: #c6e6cf;
+    color: #ecf8ef;
+    background: #34654b;
+    box-shadow: 0 0 0 5px #b6d4bd16;
+  }
+}
+.motion-paused .service-visual-clean .service-connectors path,
+.motion-paused .service-visual-clean .service-visual-icon,
+.motion-paused .service-visual-clean .service-visual-node {
+  animation-play-state: paused !important;
 }
 @media (max-width: 800px) {
   .services-section .services-layout {
@@ -173,7 +289,12 @@
   }
 }
 @media (prefers-reduced-motion: reduce) {
-  .service-visual-node {
-    animation: none;
+  .service-visual-clean .service-connectors path,
+  .service-visual-clean .service-visual-icon,
+  .service-visual-clean .service-visual-node {
+    animation: none !important;
+  }
+  .service-visual-clean .service-connectors .service-signal {
+    opacity: 0;
   }
 }

@@ -30,7 +30,7 @@ export default function Motion() {
     let stacks: {
       element: HTMLElement;
       top: number;
-      cards: { element: HTMLElement; nextOffset: number | null }[];
+      cards: { element: HTMLElement; naturalOffset: number; pinTop: number }[];
     }[] = [];
     let frame = 0;
     let refreshNeeded = true;
@@ -137,6 +137,8 @@ export default function Motion() {
       ).map((element) => {
         const style = window.getComputedStyle(element);
         const gap = numberOr(style.rowGap, 0);
+        const top = numberOr(element.dataset.stackTop, 118);
+        const step = numberOr(style.getPropertyValue("--stack-step"), 36);
         let offset =
           numberOr(style.paddingTop, 0) + numberOr(style.borderTopWidth, 0);
         // A sticky card's rect stops at its pin point. Its natural flow position does not.
@@ -157,10 +159,11 @@ export default function Motion() {
           });
         return {
           element,
-          top: numberOr(element.dataset.stackTop, 118),
+          top,
           cards: rows.map((row, index) => ({
             element: row.element,
-            nextOffset: rows[index + 1]?.naturalOffset ?? null,
+            naturalOffset: row.naturalOffset,
+            pinTop: top + index * step,
           })),
         };
       });
@@ -210,21 +213,26 @@ export default function Motion() {
         ? []
         : stacks.flatMap((stack) => {
             const rect = measure(stack.element);
-            return stack.cards.map((card) => {
-              const nextTop =
-                card.nextOffset === null ? null : rect.top + card.nextOffset;
+            const arrival = (card: (typeof stack.cards)[number]) =>
+              clamp(
+                (height - rect.top - card.naturalOffset) /
+                  Math.max(1, height - card.pinTop),
+              );
+            return stack.cards.map((card, index) => {
+              const next = stack.cards[index + 1];
+              const nextTop = next ? rect.top + next.naturalOffset : null;
               return {
                 element: card.element,
                 progress:
                   nextTop === null
                     ? 0
-                    : clamp((stack.top - nextTop) / Math.max(1, height * 0.5)),
-                cover:
-                  nextTop === null
-                    ? 0
                     : clamp(
-                        (height - nextTop) / Math.max(1, height - stack.top),
+                        (next.pinTop - nextTop) / Math.max(1, height * 0.5),
                       ),
+                cover: next ? arrival(next) : 0,
+                depth: stack.cards
+                  .slice(index + 1)
+                  .reduce((sum, later) => sum + arrival(later), 0),
               };
             });
           });
@@ -283,10 +291,13 @@ export default function Motion() {
       heroValues.forEach(({ element, value }) =>
         setProperty(element, "--hero-exit", value.toFixed(4)),
       );
-      stackValues.forEach(({ element, progress: stackProgress, cover }) => {
-        setProperty(element, "--stack-progress", stackProgress.toFixed(4));
-        setProperty(element, "--stack-cover", cover.toFixed(4));
-      });
+      stackValues.forEach(
+        ({ element, progress: stackProgress, cover, depth }) => {
+          setProperty(element, "--stack-progress", stackProgress.toFixed(4));
+          setProperty(element, "--stack-cover", cover.toFixed(4));
+          setProperty(element, "--stack-depth", depth.toFixed(4));
+        },
+      );
       parallaxValues.forEach(({ element, value }) =>
         setProperty(element, "--parallax", `${value.toFixed(2)}px`),
       );
@@ -331,6 +342,7 @@ export default function Motion() {
           stack.cards.forEach(({ element }) => {
             setProperty(element, "--stack-progress", "0");
             setProperty(element, "--stack-cover", "0");
+            setProperty(element, "--stack-depth", "0");
           }),
         );
       }
@@ -408,6 +420,7 @@ export default function Motion() {
         stack.cards.forEach(({ element }) => {
           element.style.removeProperty("--stack-progress");
           element.style.removeProperty("--stack-cover");
+          element.style.removeProperty("--stack-depth");
         }),
       );
       root.style.removeProperty("--scroll");
