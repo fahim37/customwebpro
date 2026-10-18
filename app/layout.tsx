@@ -4,6 +4,7 @@ import "./globals.css";
 import "./responsive.css";
 import "./typography.css";
 import "./scrollbars.css";
+import "./wow-scroll.css";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",

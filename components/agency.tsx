@@ -26,6 +26,7 @@ import sourceContent from "@/research/content-catalog.json";
 import Manifesto from "./manifesto";
 import "./service-panel.css";
 import "./brand.css";
+import "./project-stack.css";
 
 const fiverr = "https://www.fiverr.com/customweb_pro";
 const imageRoot = "/images/original/";
@@ -251,7 +252,11 @@ function FounderPortrait({ hero = false }: { hero?: boolean }) {
           alt="Biplob Hossain, AI and Full Stack Developer behind CustomWebPro"
           fill
           preload={hero}
-          sizes="(max-width: 600px) 90vw, (max-width: 1100px) 45vw, 545px"
+          sizes={
+            hero
+              ? "(max-width: 600px) 90vw, (max-width: 1100px) 48vw, 640px"
+              : "(max-width: 600px) 90vw, (max-width: 1100px) 45vw, 545px"
+          }
         />
       </div>
       <div className="portrait-sticker" data-scroll-rotate="16">
@@ -366,7 +371,12 @@ export default function Agency() {
       </header>
 
       <main id="main">
-        <section className="hero page-container" id="home" data-scroll-section>
+        <section
+          className="hero page-container"
+          id="home"
+          data-scroll-section
+          data-scroll-hero
+        >
           <div className="hero-topline">
             <span>
               <span className="live-dot" /> INDEPENDENT MINDS. EXTRAORDINARY
@@ -526,9 +536,14 @@ export default function Agency() {
               </div>
             </div>
           </div>
-          <div className="project-grid" data-reveal>
+          <div
+            className="project-grid"
+            data-reveal
+            data-scroll-stack
+            data-stack-top="118"
+          >
             {visibleProjects.map((project) => (
-              <article className="project" key={project.number}>
+              <article className="project" key={project.number} data-stack-card>
                 <button
                   className="project-button"
                   onClick={() => setActiveProject(project)}
@@ -541,8 +556,8 @@ export default function Agency() {
                     </div>
                     <div
                       className="project-browser"
-                      data-parallax="-0.065"
-                      data-parallax-max="25"
+                      data-parallax="-0.14"
+                      data-parallax-max="60"
                     >
                       <div className="browser-bar">
                         <span />
@@ -586,6 +601,25 @@ export default function Agency() {
             <ProjectBrief className="text-link">
               Let’s start yours <ArrowUpRight size={18} />
             </ProjectBrief>
+          </div>
+        </section>
+
+        <section
+          className="scroll-ribbon"
+          data-scroll-section
+          aria-label="Designed to make an impact"
+        >
+          <div className="ribbon-line ribbon-line-one" aria-hidden="true">
+            <span>GOOD DESIGN.</span>
+            <Asterisk />
+            <span>REAL IMPACT.</span>
+            <Asterisk />
+            <span>BIG POSSIBILITIES.</span>
+          </div>
+          <div className="ribbon-line ribbon-line-two" aria-hidden="true">
+            <span>Built to move you.</span>
+            <span>Made to matter.</span>
+            <span>Built to move you.</span>
           </div>
         </section>
 

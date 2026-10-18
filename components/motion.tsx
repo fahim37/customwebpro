@@ -24,10 +24,17 @@ export default function Motion() {
     const pending = new Set<HTMLElement>();
     const registered = new Set<HTMLElement>();
     let sections: HTMLElement[] = [];
+    let heroes: HTMLElement[] = [];
     let parallax: HTMLElement[] = [];
     let rotations: HTMLElement[] = [];
+    let stacks: {
+      element: HTMLElement;
+      top: number;
+      cards: { element: HTMLElement; nextOffset: number | null }[];
+    }[] = [];
     let frame = 0;
     let refreshNeeded = true;
+    let geometryNeeded = true;
     let disposed = false;
     let disabled = false;
 
@@ -101,6 +108,9 @@ export default function Motion() {
       sections = Array.from(
         page.querySelectorAll<HTMLElement>("[data-scroll-section]"),
       );
+      heroes = Array.from(
+        page.querySelectorAll<HTMLElement>("[data-scroll-hero]"),
+      );
       parallax = Array.from(
         page.querySelectorAll<HTMLElement>("[data-parallax]"),
       );
@@ -118,12 +128,50 @@ export default function Motion() {
         }
       });
       refreshNeeded = false;
+      geometryNeeded = true;
+    };
+
+    const refreshStackGeometry = () => {
+      stacks = Array.from(
+        page.querySelectorAll<HTMLElement>("[data-scroll-stack]"),
+      ).map((element) => {
+        const style = window.getComputedStyle(element);
+        const gap = numberOr(style.rowGap, 0);
+        let offset =
+          numberOr(style.paddingTop, 0) + numberOr(style.borderTopWidth, 0);
+        // A sticky card's rect stops at its pin point. Its natural flow position does not.
+        // Reconstruct single-column row offsets from untransformed heights and the stable grid.
+        const rows = Array.from(element.children)
+          .filter(
+            (child): child is HTMLElement =>
+              child instanceof HTMLElement &&
+              child.matches("[data-stack-card]"),
+          )
+          .map((card) => {
+            const cardStyle = window.getComputedStyle(card);
+            offset += numberOr(cardStyle.marginTop, 0);
+            const naturalOffset = offset;
+            offset +=
+              card.offsetHeight + numberOr(cardStyle.marginBottom, 0) + gap;
+            return { element: card, naturalOffset };
+          });
+        return {
+          element,
+          top: numberOr(element.dataset.stackTop, 118),
+          cards: rows.map((row, index) => ({
+            element: row.element,
+            nextOffset: rows[index + 1]?.naturalOffset ?? null,
+          })),
+        };
+      });
+      geometryNeeded = false;
     };
 
     const update = () => {
       frame = 0;
       if (disposed || document.hidden) return;
       if (refreshNeeded) refresh();
+      if (geometryNeeded) refreshStackGeometry();
       const height = window.innerHeight;
       const total = root.scrollHeight - height;
       const progress = total > 0 ? clamp(window.scrollY / total) : 0;
@@ -149,10 +197,45 @@ export default function Motion() {
               ),
             };
           });
+      const heroValues = disabled
+        ? []
+        : heroes.map((element) => {
+            const rect = measure(element);
+            return {
+              element,
+              value: clamp(-rect.top / Math.max(1, rect.height * 0.75)),
+            };
+          });
+      const stackValues = disabled
+        ? []
+        : stacks.flatMap((stack) => {
+            const rect = measure(stack.element);
+            return stack.cards.map((card) => {
+              const nextTop =
+                card.nextOffset === null ? null : rect.top + card.nextOffset;
+              return {
+                element: card.element,
+                progress:
+                  nextTop === null
+                    ? 0
+                    : clamp((stack.top - nextTop) / Math.max(1, height * 0.5)),
+                cover:
+                  nextTop === null
+                    ? 0
+                    : clamp(
+                        (height - nextTop) / Math.max(1, height - stack.top),
+                      ),
+              };
+            });
+          });
       const parallaxValues = disabled
         ? []
         : parallax.map((element) => {
-            const rect = measure(element.parentElement || element);
+            const rect = measure(
+              element.closest<HTMLElement>("[data-stack-card]") ||
+                element.parentElement ||
+                element,
+            );
             const limit = clamp(
               numberOr(
                 element.dataset.parallaxMax,
@@ -197,6 +280,13 @@ export default function Motion() {
       sectionValues.forEach(({ element, value }) =>
         setProperty(element, "--section-progress", value.toFixed(4)),
       );
+      heroValues.forEach(({ element, value }) =>
+        setProperty(element, "--hero-exit", value.toFixed(4)),
+      );
+      stackValues.forEach(({ element, progress: stackProgress, cover }) => {
+        setProperty(element, "--stack-progress", stackProgress.toFixed(4));
+        setProperty(element, "--stack-cover", cover.toFixed(4));
+      });
       parallaxValues.forEach(({ element, value }) =>
         setProperty(element, "--parallax", `${value.toFixed(2)}px`),
       );
@@ -209,6 +299,10 @@ export default function Motion() {
     const schedule = () => {
       if (!frame && !disposed && !document.hidden)
         frame = requestAnimationFrame(update);
+    };
+    const onLayoutChange = () => {
+      geometryNeeded = true;
+      schedule();
     };
 
     const syncMode = () => {
@@ -231,6 +325,13 @@ export default function Motion() {
         );
         sections.forEach((element) =>
           setProperty(element, "--section-progress", "1"),
+        );
+        heroes.forEach((element) => setProperty(element, "--hero-exit", "0"));
+        stacks.forEach((stack) =>
+          stack.cards.forEach(({ element }) => {
+            setProperty(element, "--stack-progress", "0");
+            setProperty(element, "--stack-cover", "0");
+          }),
         );
       }
       schedule();
@@ -257,7 +358,7 @@ export default function Motion() {
     const resizing =
       typeof ResizeObserver === "undefined"
         ? null
-        : new ResizeObserver(schedule);
+        : new ResizeObserver(onLayoutChange);
 
     syncMode();
     refresh();
@@ -269,13 +370,13 @@ export default function Motion() {
     });
     resizing?.observe(page);
     window.addEventListener("scroll", schedule, { passive: true });
-    window.addEventListener("resize", schedule, { passive: true });
+    window.addEventListener("resize", onLayoutChange, { passive: true });
     reduced.addEventListener("change", syncMode);
     page.addEventListener("focusin", onFocus);
-    page.addEventListener("load", schedule, true);
+    page.addEventListener("load", onLayoutChange, true);
     document.addEventListener("visibilitychange", onVisibility);
     document.fonts?.ready.then(() => {
-      if (!disposed) schedule();
+      if (!disposed) onLayoutChange();
     });
 
     return () => {
@@ -286,10 +387,10 @@ export default function Motion() {
       pauseObserver.disconnect();
       resizing?.disconnect();
       window.removeEventListener("scroll", schedule);
-      window.removeEventListener("resize", schedule);
+      window.removeEventListener("resize", onLayoutChange);
       reduced.removeEventListener("change", syncMode);
       page.removeEventListener("focusin", onFocus);
-      page.removeEventListener("load", schedule, true);
+      page.removeEventListener("load", onLayoutChange, true);
       document.removeEventListener("visibilitychange", onVisibility);
       registered.forEach((element) => {
         element.classList.remove("will-reveal", "motion-reveal-item");
@@ -301,6 +402,13 @@ export default function Motion() {
       );
       sections.forEach((element) =>
         element.style.removeProperty("--section-progress"),
+      );
+      heroes.forEach((element) => element.style.removeProperty("--hero-exit"));
+      stacks.forEach((stack) =>
+        stack.cards.forEach(({ element }) => {
+          element.style.removeProperty("--stack-progress");
+          element.style.removeProperty("--stack-cover");
+        }),
       );
       root.style.removeProperty("--scroll");
       root.style.removeProperty("--progress");

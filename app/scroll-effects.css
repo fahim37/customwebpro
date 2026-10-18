@@ -52,6 +52,20 @@
   transform-origin: center;
 }
 
+/* Separate portrait and copy planes make the first scroll feel physical. */
+[data-scroll-hero] .hero-copy {
+  translate: 0 calc(var(--hero-exit, 0) * 60px);
+  opacity: calc(1 - var(--hero-exit, 0) * 0.7);
+}
+[data-scroll-hero] .hero-copy:focus-within {
+  opacity: 1;
+}
+[data-scroll-hero] .hero-portrait {
+  translate: 0 calc(var(--hero-exit, 0) * -85px);
+  rotate: calc(var(--hero-exit, 0) * -2deg);
+  transform-origin: center 65%;
+}
+
 /* Scroll translation stays independent of the browser card's -3deg/3deg and hover transforms. */
 :root[data-scroll-motion] .project-browser[data-parallax] {
   translate: 0 var(--parallax, 0px);
@@ -143,9 +157,14 @@
   [data-scroll-rotate],
   .hero-art .portrait-large-type,
   .hero-art .hero-portrait-type,
+  [data-scroll-hero] .hero-copy,
+  [data-scroll-hero] .hero-portrait,
   .process-section[data-scroll-section] .process-step-top > span:last-child {
     translate: none !important;
     rotate: none !important;
+  }
+  [data-scroll-hero] .hero-copy {
+    opacity: 1 !important;
   }
   .will-reveal.motion-reveal-item,
   .will-reveal.motion-reveal-item .reveal-line > span {
