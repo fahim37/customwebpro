@@ -1,0 +1,159 @@
+/* Every element starts visible. JavaScript only prepares elements still below the viewport. */
+.will-reveal.motion-reveal-item {
+  opacity: 0;
+  transform: translate3d(0, var(--reveal-distance, 28px), 0);
+  transition:
+    opacity 750ms ease var(--reveal-delay, 0ms),
+    transform 950ms cubic-bezier(0.2, 0.7, 0.2, 1) var(--reveal-delay, 0ms);
+}
+
+.will-reveal.motion-reveal-item.is-visible,
+.will-reveal.motion-reveal-item:focus-within {
+  opacity: 1;
+  transform: none;
+}
+.will-reveal.motion-reveal-item:focus-within {
+  transition: none;
+}
+
+.project.motion-reveal-item {
+  --reveal-distance: 42px;
+}
+.faq-item.motion-reveal-item {
+  --reveal-distance: 18px;
+}
+
+/* Individual transforms compose with the existing hover, tilt, and base rotation. */
+:root[data-scroll-motion] [data-parallax] {
+  translate: 0 var(--parallax, 0px);
+}
+
+:root[data-scroll-motion] [data-scroll-rotate] {
+  rotate: var(--scroll-rotate, 0deg);
+}
+
+/* The original portrait used transform for its translation: avoid applying it twice. */
+:root[data-scroll-motion] .portrait-image[data-parallax] {
+  transform: none;
+}
+
+.hero-art .portrait-large-type,
+.hero-art .hero-portrait-type {
+  translate: 0
+    var(--parallax, calc((0.5 - var(--section-progress, 0.5)) * 60px));
+}
+
+.hero-art .portrait-sticker,
+.hero-art .hero-portrait-sticker {
+  rotate: var(--scroll-rotate, 0deg);
+}
+
+.hero-art .portrait-orbit[data-scroll-rotate] {
+  transform-origin: center;
+}
+
+/* Scroll translation stays independent of the browser card's -3deg/3deg and hover transforms. */
+:root[data-scroll-motion] .project-browser[data-parallax] {
+  translate: 0 var(--parallax, 0px);
+}
+
+.process-grid {
+  position: relative;
+}
+.process-progress {
+  position: absolute;
+  top: -16px;
+  right: 0;
+  left: 0;
+  height: 2px;
+  overflow: hidden;
+  background: var(--line, #ddded5);
+  pointer-events: none;
+}
+
+.process-progress::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: var(--blue, #075344);
+  transform: scaleX(var(--section-progress, 1));
+  transform-origin: left center;
+}
+
+.process-section[data-scroll-section] .process-step-top > span:last-child {
+  rotate: calc((var(--section-progress, 0.5) - 0.5) * 32deg);
+}
+
+/* Optional line wrappers stay readable before enhancement and support art-directed headings. */
+.reveal-line {
+  display: block;
+  overflow: clip;
+  padding-block: 0.06em;
+  margin-block: -0.06em;
+}
+.reveal-line > span {
+  display: inline-block;
+}
+.will-reveal.motion-reveal-item .reveal-line > span {
+  transform: translateY(110%);
+  transition: transform 1s cubic-bezier(0.2, 0.7, 0.2, 1)
+    var(--reveal-delay, 0ms);
+}
+.will-reveal.motion-reveal-item.is-visible .reveal-line > span,
+.will-reveal.motion-reveal-item:focus-within .reveal-line > span {
+  transform: none;
+}
+
+.motion-paused .ticker-track,
+.motion-paused .floating-note,
+.motion-paused .service-ring,
+.motion-paused [data-motion-loop] {
+  animation-play-state: paused !important;
+}
+/* Newly opened dialogs and changed panels must reach their readable state while paused. */
+.motion-paused .brief-dialog[open],
+.motion-paused .service-detail,
+.motion-paused .review-content {
+  animation: none !important;
+}
+.motion-paused .will-reveal.motion-reveal-item {
+  opacity: 1;
+  transform: none;
+  transition: none;
+}
+.motion-paused .reveal-line > span {
+  transform: none !important;
+  transition: none;
+}
+
+@media (max-width: 600px) {
+  .motion-reveal-item {
+    --reveal-distance: 22px;
+  }
+  .project.motion-reveal-item {
+    --reveal-distance: 30px;
+  }
+  .process-progress {
+    top: -12px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  [data-parallax],
+  [data-scroll-rotate],
+  .hero-art .portrait-large-type,
+  .hero-art .hero-portrait-type,
+  .process-section[data-scroll-section] .process-step-top > span:last-child {
+    translate: none !important;
+    rotate: none !important;
+  }
+  .will-reveal.motion-reveal-item,
+  .will-reveal.motion-reveal-item .reveal-line > span {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+  .process-progress::after {
+    transform: none;
+  }
+}

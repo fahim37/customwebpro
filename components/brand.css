@@ -1,0 +1,28 @@
+.brand.brand-original {
+  display: inline-flex;
+  flex-shrink: 0;
+  align-items: center;
+  width: 250px;
+  max-width: 70%;
+  gap: 0;
+  line-height: 0;
+}
+.brand-original > img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+@media (max-width: 800px) {
+  .brand.brand-original {
+    width: 225px;
+  }
+}
+@media (max-width: 600px) {
+  .brand.brand-original {
+    width: 230px;
+  }
+  .site-footer .brand.brand-original {
+    width: 210px;
+  }
+}

@@ -1,0 +1,644 @@
+body {
+  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+}
+h1 {
+  font-size: clamp(66px, 6.5vw, 100px);
+  letter-spacing: -0.075em;
+}
+h2 {
+  font-size: clamp(48px, 5vw, 76px);
+}
+.main-nav {
+  font-size: 15px;
+}
+.header-cta {
+  font-size: 12px;
+}
+.header-cta > span {
+  font-size: 16px;
+}
+.hero-topline {
+  font-size: 10px;
+  letter-spacing: 1.2px;
+}
+.hero-kicker {
+  font-size: 11px;
+  letter-spacing: 1px;
+}
+.hero-copy > p {
+  font-size: 17px;
+  line-height: 1.8;
+}
+.button {
+  font-size: 14px;
+  min-height: 58px;
+  padding: 18px 22px;
+}
+.text-link {
+  font-size: 14px;
+}
+.hero-proof > div:last-child > span {
+  font-size: 11px;
+}
+.proof-stars,
+.proof-stars b {
+  font-size: 12px;
+}
+.founder-chip > span:nth-child(2) {
+  font-size: 12px;
+}
+.founder-chip small {
+  font-size: 11px;
+}
+.hero-bottom-note {
+  font-size: 12px;
+}
+.scroll-cue {
+  font-size: 10px;
+}
+.ticker-set > span {
+  font-size: 14px;
+}
+.section-label {
+  font-size: 11px;
+  letter-spacing: 1.15px;
+}
+.heading-aside > p,
+.service-intro,
+.pricing-intro {
+  font-size: 15px;
+  line-height: 1.8;
+}
+.filter-group button {
+  font-size: 12px;
+  min-height: 44px;
+  padding: 10px 16px;
+}
+.project-art-top {
+  font-size: 9px;
+}
+.project-tags {
+  font-size: 10px;
+  letter-spacing: 0.8px;
+}
+.project h3 {
+  font-size: 24px;
+  letter-spacing: -0.8px;
+  line-height: 1.3;
+}
+.project-view {
+  font-size: 10px;
+}
+.work-footer {
+  font-size: 13px;
+}
+.service-row > span:nth-child(2) {
+  font-size: clamp(19px, 1.8vw, 26px);
+}
+.service-number {
+  font-size: 12px;
+}
+.service-detail > h3 {
+  font-size: 29px;
+}
+.service-detail > p {
+  font-size: 16px;
+  line-height: 1.8;
+}
+.service-pills > span {
+  font-size: 10px;
+  padding: 7px 10px;
+}
+.service-cta {
+  font-size: 14px;
+  min-height: 44px;
+}
+.tech-strip > span {
+  font-size: 10px;
+}
+.tech-strip > div > span {
+  font-size: 20px;
+}
+.about-copy > h2,
+.review-heading h2 {
+  font-size: clamp(44px, 4.5vw, 67px);
+}
+.about-copy > p {
+  font-size: 16px;
+  line-height: 1.85;
+}
+.about-copy > .about-lead {
+  font-size: 21px;
+  line-height: 1.5;
+}
+.about-copy > .text-link {
+  font-size: 13px;
+}
+.about-stats strong {
+  font-size: 43px;
+}
+.about-stats > div > span {
+  font-size: 9px;
+  letter-spacing: 0.6px;
+}
+.portrait-caption {
+  font-size: 10px;
+}
+.portrait-caption span:last-child {
+  font-size: 8px;
+}
+.process-heading > h2 {
+  font-size: 53px;
+}
+.process-heading > p {
+  font-size: 14px;
+}
+.process-step > h3 {
+  font-size: 26px;
+}
+.process-step > p {
+  font-size: 14px;
+  line-height: 1.8;
+}
+.process-step-top {
+  font-size: 11px;
+}
+.review-score > span {
+  font-size: 13px;
+}
+.review-score > a {
+  font-size: 10px;
+}
+.review-author strong {
+  font-size: 14px;
+}
+.review-author > div > span {
+  font-size: 11px;
+}
+.review-source {
+  font-size: 8px;
+}
+.review-card-footer {
+  font-size: 8px;
+}
+.review-controls > span {
+  font-size: 12px;
+}
+.pricing-card h3 {
+  font-size: 27px;
+}
+.pricing-card > p {
+  font-size: 14px;
+}
+.plan-badge {
+  font-size: 9px;
+}
+.plan-price > span {
+  font-size: 10px;
+}
+.plan-price > strong {
+  font-size: 76px;
+}
+.pricing-card li {
+  font-size: 14px;
+}
+.hourly-row strong {
+  font-size: 15px;
+}
+.hourly-row > div > div > span {
+  font-size: 13px;
+}
+.hourly-row > a > strong {
+  font-size: 34px;
+}
+.pricing-note {
+  font-size: 11px;
+}
+.faq-heading h2 {
+  font-size: clamp(48px, 4.5vw, 67px);
+}
+.faq-heading > p {
+  font-size: 14px;
+}
+.faq-item > summary {
+  font-size: 16px;
+  padding: 28px 0;
+}
+.faq-number {
+  font-size: 11px;
+}
+.faq-item > p {
+  font-size: 15px;
+}
+.contact-top {
+  font-size: 10px;
+}
+.contact-bottom > p {
+  font-size: 14px;
+}
+.contact-bottom > a {
+  font-size: 13px;
+}
+.footer-top > p {
+  font-size: 13px;
+}
+.back-top {
+  font-size: 10px;
+}
+.footer-bottom {
+  font-size: 11px;
+}
+.footer-bottom > span:last-child {
+  font-size: 8px;
+}
+.project-dialog-copy > p {
+  font-size: 15px;
+}
+.project-facts dt {
+  font-size: 10px;
+}
+.project-facts dd {
+  font-size: 14px;
+}
+.brief-input {
+  font-size: 16px;
+}
+
+@media (max-width: 1100px) {
+  .main-nav {
+    font-size: 13px;
+    gap: 20px;
+  }
+  .hero-main {
+    min-height: 640px;
+  }
+  h1 {
+    font-size: clamp(56px, 6.4vw, 78px);
+  }
+  .hero-kicker {
+    font-size: 9px;
+  }
+  .hero-topline {
+    font-size: 8px;
+  }
+  .hero-copy > p {
+    font-size: 15px;
+  }
+  .hero-actions .button {
+    font-size: 12px;
+    min-height: 55px;
+  }
+  .hero-actions .text-link {
+    font-size: 12px;
+  }
+  .about-grid {
+    gap: 45px;
+  }
+  .about-stats {
+    gap: 20px;
+  }
+  .about-stats > div > span {
+    font-size: 7px;
+  }
+  .about-copy > p {
+    font-size: 14px;
+  }
+  .about-copy > .about-lead {
+    font-size: 18px;
+  }
+  .service-detail > p {
+    font-size: 14px;
+  }
+  .process-heading > h2 {
+    font-size: 43px;
+  }
+  .process-heading > p {
+    font-size: 12px;
+  }
+  .process-heading > .section-label {
+    font-size: 9px;
+  }
+  .process-step > p {
+    font-size: 12px;
+  }
+  .review-source {
+    display: none;
+  }
+  .footer-bottom > span:last-child {
+    display: none;
+  }
+}
+@media (max-width: 800px) {
+  h1 {
+    font-size: 56px;
+  }
+  .hero-main {
+    min-height: 580px;
+  }
+  .hero-copy > p {
+    font-size: 14px;
+  }
+  .hero-copy .desktop-break {
+    display: none;
+  }
+  .hero-kicker {
+    font-size: 8px;
+    letter-spacing: 0.7px;
+  }
+  .hero-proof > div:last-child > span {
+    font-size: 9px;
+  }
+  .heading-aside > p,
+  .service-intro,
+  .pricing-intro {
+    font-size: 13px;
+  }
+  .project-tags {
+    font-size: 8px;
+  }
+  .project h3 {
+    font-size: 20px;
+  }
+  .project-art-top {
+    font-size: 7px;
+  }
+  .service-row > span:nth-child(2) {
+    font-size: 19px;
+  }
+  .service-detail > h3 {
+    font-size: 25px;
+  }
+  .service-pills > span {
+    font-size: 9px;
+  }
+  .about-copy > h2 {
+    font-size: 42px;
+  }
+  .about-copy > p {
+    font-size: 13px;
+  }
+  .about-copy > .about-lead {
+    font-size: 17px;
+  }
+  .about-stats strong {
+    font-size: 33px;
+  }
+  .about-stats > div > span {
+    font-size: 6px;
+  }
+  .pricing-card h3 {
+    font-size: 24px;
+  }
+  .plan-badge {
+    font-size: 6px;
+  }
+  .pricing-card li {
+    font-size: 12px;
+  }
+  .faq-item > summary {
+    font-size: 14px;
+  }
+  .faq-item > p {
+    font-size: 13px;
+  }
+  .process-step > h3 {
+    font-size: 23px;
+  }
+}
+@media (max-width: 600px) {
+  h1 {
+    font-size: clamp(52px, 13.1vw, 76px);
+  }
+  h2 {
+    font-size: 49px;
+  }
+  .hero-main {
+    min-height: 0;
+  }
+  .hero-kicker {
+    font-size: 9px;
+    letter-spacing: 0.6px;
+  }
+  .hero-topline {
+    font-size: 7px;
+    letter-spacing: 0.6px;
+  }
+  .hero-copy > p {
+    font-size: 16px;
+    line-height: 1.75;
+    margin-top: 29px;
+  }
+  .hero-actions {
+    gap: 18px;
+    flex-wrap: wrap;
+  }
+  .hero-actions .button {
+    font-size: 12px;
+    min-height: 55px;
+    padding: 17px 18px;
+  }
+  .hero-actions .text-link {
+    font-size: 12px;
+  }
+  .hero-proof > div:last-child > span {
+    font-size: 10px;
+  }
+  .proof-stars,
+  .proof-stars b {
+    font-size: 11px;
+  }
+  .hero-bottom {
+    flex-wrap: wrap;
+  }
+  .founder-chip > span:nth-child(2) {
+    font-size: 11px;
+  }
+  .founder-chip small {
+    font-size: 10px;
+  }
+  .scroll-cue {
+    font-size: 8px;
+    letter-spacing: 0.6px;
+  }
+  .ticker-set > span {
+    font-size: 12px;
+  }
+  .section-label {
+    font-size: 10px;
+    letter-spacing: 0.8px;
+  }
+  .heading-aside > p,
+  .service-intro,
+  .pricing-intro {
+    font-size: 14px;
+  }
+  .filter-group button {
+    font-size: 12px;
+    min-height: 44px;
+  }
+  .project h3 {
+    font-size: 23px;
+  }
+  .project-tags {
+    font-size: 9px;
+  }
+  .project-art-top {
+    font-size: 8px;
+  }
+  .work-footer > span {
+    font-size: 11px;
+    max-width: 160px;
+    line-height: 1.6;
+  }
+  .work-footer > .text-link {
+    font-size: 12px;
+  }
+  .services-section h2 {
+    font-size: 46px;
+  }
+  .service-row > span:nth-child(2) {
+    font-size: 21px;
+  }
+  .service-number {
+    font-size: 11px;
+  }
+  .service-detail > p {
+    font-size: 15px;
+    line-height: 1.8;
+  }
+  .service-detail > h3 {
+    font-size: 28px;
+  }
+  .service-pills > span {
+    font-size: 10px;
+  }
+  .service-cta {
+    font-size: 14px;
+  }
+  .tech-strip > span {
+    font-size: 9px;
+  }
+  .tech-strip > div > span {
+    font-size: 17px;
+  }
+  .about-copy > h2,
+  .review-heading h2 {
+    font-size: 47px;
+  }
+  .about-copy > p {
+    font-size: 15px;
+    line-height: 1.85;
+  }
+  .about-copy > .about-lead {
+    font-size: 20px;
+  }
+  .about-copy > .text-link {
+    font-size: 13px;
+  }
+  .about-stats strong {
+    font-size: 41px;
+  }
+  .about-stats > div > span {
+    font-size: 8px;
+    letter-spacing: 0.3px;
+  }
+  .process-heading > h2 {
+    font-size: 48px;
+  }
+  .process-heading > p {
+    font-size: 14px;
+  }
+  .process-heading > .section-label {
+    font-size: 10px;
+  }
+  .process-step > h3 {
+    font-size: 25px;
+  }
+  .process-step > p {
+    font-size: 13px;
+    line-height: 1.8;
+  }
+  .review-source {
+    display: none;
+  }
+  .review-score > span {
+    font-size: 12px;
+  }
+  .review-content blockquote {
+    font-size: 29px;
+  }
+  .review-controls {
+    gap: 9px;
+  }
+  .pricing-section h2 {
+    font-size: 46px;
+  }
+  .pricing-card h3 {
+    font-size: 27px;
+  }
+  .pricing-card > p {
+    font-size: 14px;
+  }
+  .pricing-card li {
+    font-size: 14px;
+  }
+  .pricing-card > .button {
+    font-size: 14px;
+  }
+  .plan-badge {
+    font-size: 7px;
+  }
+  .hourly-row > div strong {
+    font-size: 12px;
+  }
+  .hourly-row > div > div > span {
+    font-size: 10px;
+    line-height: 1.5;
+  }
+  .hourly-row > a > strong {
+    font-size: 29px;
+  }
+  .pricing-note {
+    font-size: 10px;
+  }
+  .faq-heading h2 {
+    font-size: 48px;
+  }
+  .faq-heading > p {
+    font-size: 14px;
+  }
+  .faq-item > summary {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+  .faq-item > p {
+    font-size: 14px;
+  }
+  .faq-number {
+    font-size: 10px;
+  }
+  .contact-top {
+    font-size: 8px;
+  }
+  .contact-bottom > p {
+    font-size: 12px;
+  }
+  .contact-bottom > a {
+    font-size: 11px;
+  }
+  .footer-top > p {
+    font-size: 11px;
+  }
+  .footer-bottom {
+    font-size: 10px;
+  }
+  .project-dialog-copy > p {
+    font-size: 14px;
+  }
+  .project-facts dd {
+    font-size: 13px;
+  }
+  .project-facts dt {
+    font-size: 9px;
+  }
+}

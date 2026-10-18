@@ -1,0 +1,152 @@
+:root,
+.project-dialog-scroll,
+.brief-dialog,
+textarea {
+  scrollbar-width: thin;
+  scrollbar-color: #075344 #e8eade;
+}
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #e8eade;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #075344;
+  border: 2px solid #e8eade;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #003c38;
+}
+::-webkit-scrollbar-button {
+  display: none;
+  width: 0;
+  height: 0;
+}
+.project-dialog {
+  overflow: hidden;
+  max-height: 90dvh;
+  border: 1px solid #ffffff70;
+  box-shadow: 0 30px 110px #10261e40;
+}
+.project-dialog-inner {
+  display: flex;
+  flex-direction: column;
+  max-height: calc(90dvh - 2px);
+  isolation: isolate;
+}
+.project-dialog-scroll {
+  min-height: 0;
+  flex: 1 1 auto;
+  overflow-x: hidden;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-gutter: stable;
+  scroll-padding: 24px;
+}
+.project-dialog .dialog-close {
+  z-index: 5;
+  height: 44px;
+  width: 44px;
+  right: 16px;
+  top: 16px;
+  color: var(--ink);
+  background: var(--paper);
+  border: 1px solid #d5dac9;
+}
+.project-dialog .dialog-close:hover {
+  background: white;
+  color: var(--blue);
+}
+.project-dialog .project-dialog-links {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin: 0;
+  padding: 19px 32px;
+  border-top: 1px solid var(--line);
+  background: #f7f7f2;
+  box-shadow: 0 -10px 24px #26331f06;
+  position: relative;
+  z-index: 4;
+}
+.project-dialog-links .button {
+  min-height: 52px;
+  font-size: 13px;
+}
+.project-dialog-links .text-link {
+  min-height: 44px;
+  font-size: 13px;
+}
+.project-dialog .project-dialog-copy {
+  padding-bottom: 30px;
+}
+.project-dialog-scroll:focus-visible {
+  outline: 2px solid var(--blue);
+  outline-offset: -3px;
+}
+.manifesto-topline {
+  font-size: 10px;
+}
+.manifesto-label {
+  font-size: 10px;
+}
+.manifesto-bottom > p {
+  font-size: 14px;
+}
+.manifesto-progress-caption {
+  font-size: 9px;
+}
+.manifesto-progress-ends {
+  font-size: 8px;
+}
+@media (max-width: 600px) {
+  .project-dialog {
+    max-height: calc(100dvh - 24px);
+  }
+  .project-dialog-inner {
+    max-height: calc(100dvh - 26px);
+  }
+  .project-dialog .project-dialog-links {
+    padding: 14px 20px;
+    gap: 5px;
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .project-dialog-links .button {
+    justify-content: space-between;
+    min-height: 48px;
+    font-size: 12px;
+  }
+  .project-dialog-links .text-link {
+    justify-content: center;
+    min-height: 39px;
+    font-size: 12px;
+  }
+  .project-dialog .dialog-close {
+    top: 12px;
+    right: 12px;
+  }
+  .manifesto-label,
+  .manifesto-topline {
+    font-size: 9px;
+  }
+  .manifesto-bottom > p {
+    font-size: 12px;
+  }
+}
+@media (forced-colors: active) {
+  :root,
+  .project-dialog-scroll,
+  .brief-dialog,
+  textarea {
+    scrollbar-color: auto;
+  }
+}

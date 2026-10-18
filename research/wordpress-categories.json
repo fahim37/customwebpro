@@ -1,0 +1,227 @@
+[
+  {
+    "id": 24,
+    "count": 2,
+    "description": "",
+    "link": "https://customwebpro.webmastery.tech/category/ai-development/",
+    "name": "AI Development",
+    "slug": "ai-development",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://customwebpro.webmastery.tech/wp-json/wp/v2/categories/24",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://customwebpro.webmastery.tech/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://customwebpro.webmastery.tech/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://customwebpro.webmastery.tech/wp-json/wp/v2/posts?categories=24"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 1,
+    "count": 0,
+    "description": "Your blog category",
+    "link": "https://customwebpro.webmastery.tech/category/blog/",
+    "name": "Blog",
+    "slug": "blog",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://customwebpro.webmastery.tech/wp-json/wp/v2/categories/1",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://customwebpro.webmastery.tech/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://customwebpro.webmastery.tech/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://customwebpro.webmastery.tech/wp-json/wp/v2/posts?categories=1"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 21,
+    "count": 4,
+    "description": "",
+    "link": "https://customwebpro.webmastery.tech/category/website-design/",
+    "name": "Website Design",
+    "slug": "website-design",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://customwebpro.webmastery.tech/wp-json/wp/v2/categories/21",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://customwebpro.webmastery.tech/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://customwebpro.webmastery.tech/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://customwebpro.webmastery.tech/wp-json/wp/v2/posts?categories=21"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 22,
+    "count": 3,
+    "description": "",
+    "link": "https://customwebpro.webmastery.tech/category/website-development/",
+    "name": "Website Development",
+    "slug": "website-development",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://customwebpro.webmastery.tech/wp-json/wp/v2/categories/22",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://customwebpro.webmastery.tech/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://customwebpro.webmastery.tech/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://customwebpro.webmastery.tech/wp-json/wp/v2/posts?categories=22"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 23,
+    "count": 1,
+    "description": "",
+    "link": "https://customwebpro.webmastery.tech/category/website-maintenance/",
+    "name": "Website Maintenance",
+    "slug": "website-maintenance",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://customwebpro.webmastery.tech/wp-json/wp/v2/categories/23",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://customwebpro.webmastery.tech/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://customwebpro.webmastery.tech/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://customwebpro.webmastery.tech/wp-json/wp/v2/posts?categories=23"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  }
+]

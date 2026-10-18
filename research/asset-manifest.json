@@ -1,0 +1,2376 @@
+{
+  "origin": "https://customwebpro.webmastery.tech",
+  "collectedAt": "2026-10-18T06:22:43.659Z",
+  "scope": "All same-origin publicly discoverable pages via internal links, WordPress REST API and sitemap; original images exposed by public media API, page markup and Elementor stylesheets. Responsive thumbnail variants are mapped to canonical originals rather than downloaded redundantly. External linked websites are recorded but not crawled.",
+  "pages": [
+    {
+      "url": "https://customwebpro.webmastery.tech/",
+      "title": "customwebpro – Digital Agency Specializes",
+      "rawFile": "raw/index.html",
+      "imageCount": 30,
+      "linkCount": 43,
+      "headingCount": 41
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/portfolio/",
+      "title": "Portfolio – customwebpro",
+      "rawFile": "raw/portfolio.html",
+      "imageCount": 7,
+      "linkCount": 30,
+      "headingCount": 7
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/home/",
+      "title": "home – customwebpro",
+      "rawFile": "raw/home.html",
+      "imageCount": 24,
+      "linkCount": 44,
+      "headingCount": 29
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/ai-writing-workflow-website-design/",
+      "title": "AI Writing & Workflow Website Design – customwebpro",
+      "rawFile": "raw/ai-writing-workflow-website-design.html",
+      "imageCount": 6,
+      "linkCount": 20,
+      "headingCount": 6
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/landing-page-for-a-financial-services-company/",
+      "title": "Landing Page for a Financial Services Company – customwebpro",
+      "rawFile": "raw/landing-page-for-a-financial-services-company.html",
+      "imageCount": 6,
+      "linkCount": 22,
+      "headingCount": 6
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/website-development-for-a-construction-company/",
+      "title": "Website Development for a Construction Company – customwebpro",
+      "rawFile": "raw/website-development-for-a-construction-company.html",
+      "imageCount": 6,
+      "linkCount": 22,
+      "headingCount": 6
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/ai-powered-restaurant-website/",
+      "title": "AI Powered Restaurant Website – customwebpro",
+      "rawFile": "raw/ai-powered-restaurant-website.html",
+      "imageCount": 5,
+      "linkCount": 22,
+      "headingCount": 6
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/?elementskit_template=header",
+      "title": "header – customwebpro",
+      "rawFile": "raw/index-template-header.html",
+      "imageCount": 2,
+      "linkCount": 10,
+      "headingCount": 0
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/?elementskit_template=header-2",
+      "title": "header – customwebpro",
+      "rawFile": "raw/index-template-header-2.html",
+      "imageCount": 0,
+      "linkCount": 0,
+      "headingCount": 0
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/?elementskit_template=footer",
+      "title": "footer – customwebpro",
+      "rawFile": "raw/index-template-footer.html",
+      "imageCount": 1,
+      "linkCount": 7,
+      "headingCount": 2
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/category/website-design/",
+      "title": "Website Design – customwebpro",
+      "rawFile": "raw/category-website-design.html",
+      "imageCount": 7,
+      "linkCount": 26,
+      "headingCount": 7
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/category/website-development/",
+      "title": "Website Development – customwebpro",
+      "rawFile": "raw/category-website-development.html",
+      "imageCount": 6,
+      "linkCount": 24,
+      "headingCount": 6
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/category/website-maintenance/",
+      "title": "Website Maintenance – customwebpro",
+      "rawFile": "raw/category-website-maintenance.html",
+      "imageCount": 4,
+      "linkCount": 20,
+      "headingCount": 4
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/category/ai-development/",
+      "title": "AI Development – customwebpro",
+      "rawFile": "raw/category-ai-development.html",
+      "imageCount": 5,
+      "linkCount": 22,
+      "headingCount": 5
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/author/webmastery26/",
+      "title": "Webmastery26 – customwebpro",
+      "rawFile": "raw/author-webmastery26.html",
+      "imageCount": 7,
+      "linkCount": 26,
+      "headingCount": 7
+    }
+  ],
+  "apiCounts": {
+    "pages": 3,
+    "posts": 4,
+    "media": 68,
+    "categories": 5,
+    "tags": 0
+  },
+  "assets": [
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/academy.png",
+      "sources": [
+        "wordpress-media"
+      ],
+      "wordpressId": 363,
+      "title": "academy",
+      "alt": "",
+      "width": 2048,
+      "height": 1196,
+      "attachedTo": 175,
+      "localPath": "/images/original/academy.png",
+      "downloaded": true,
+      "bytes": 1414940,
+      "sha256": "cef88953e7d9b96886690d292199f4fdefbe79c5a3be1a5255c200b1293aa5b8",
+      "contentType": "image/png"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Confident-Business-Portrait-Cutout.png",
+      "sources": [
+        "wordpress-media",
+        "https://customwebpro.webmastery.tech/"
+      ],
+      "wordpressId": 362,
+      "title": "Confident Business Portrait Cutout",
+      "alt": "",
+      "width": 1105,
+      "height": 1424,
+      "attachedTo": 175,
+      "displayedWidth": "1105",
+      "displayedHeight": "1424",
+      "localPath": "/images/original/Confident-Business-Portrait-Cutout.png",
+      "downloaded": true,
+      "bytes": 1293681,
+      "sha256": "41fbeb4b0366fe5994cb95dd7349824714b59104d350fd43743a68a5dc4a09c8",
+      "contentType": "image/png"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Untitled-3.webp",
+      "sources": [
+        "wordpress-media",
+        "https://customwebpro.webmastery.tech/ai-writing-workflow-website-design/"
+      ],
+      "wordpressId": 316,
+      "title": "Untitled-3",
+      "alt": "",
+      "width": 1080,
+      "height": 853,
+      "attachedTo": 310,
+      "displayedWidth": "1080",
+      "displayedHeight": "853",
+      "localPath": "/images/original/Untitled-3.webp",
+      "downloaded": true,
+      "bytes": 53526,
+      "sha256": "316c6fb05489fa861e648749842d55cecd837afa83ee392bd6dad1b3c7a15d41",
+      "contentType": "image/webp"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Untitled-2.webp",
+      "sources": [
+        "wordpress-media",
+        "https://customwebpro.webmastery.tech/ai-writing-workflow-website-design/"
+      ],
+      "wordpressId": 315,
+      "title": "Untitled-2",
+      "alt": "",
+      "width": 1080,
+      "height": 853,
+      "attachedTo": 310,
+      "displayedWidth": "1080",
+      "displayedHeight": "853",
+      "localPath": "/images/original/Untitled-2.webp",
+      "downloaded": true,
+      "bytes": 57558,
+      "sha256": "50b3cff20830ed19677797e3133b1d2caa5df6632596f326563a62819ae6513f",
+      "contentType": "image/webp"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Untitled-1.webp",
+      "sources": [
+        "wordpress-media",
+        "https://customwebpro.webmastery.tech/",
+        "https://customwebpro.webmastery.tech/portfolio/",
+        "https://customwebpro.webmastery.tech/ai-writing-workflow-website-design/",
+        "https://customwebpro.webmastery.tech/category/website-design/",
+        "https://customwebpro.webmastery.tech/author/webmastery26/"
+      ],
+      "wordpressId": 311,
+      "title": "Untitled-1",
+      "alt": "",
+      "width": 1080,
+      "height": 853,
+      "attachedTo": 310,
+      "displayedWidth": "800",
+      "displayedHeight": "632",
+      "localPath": "/images/original/Untitled-1.webp",
+      "downloaded": true,
+      "bytes": 56606,
+      "sha256": "201aa949d323fe1ea96dcf21a04871ec8bd62a430a312090f1eb9d475b2a57a3",
+      "contentType": "image/webp"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Modern-SaaS-UI-2.webp",
+      "sources": [
+        "wordpress-media",
+        "https://customwebpro.webmastery.tech/landing-page-for-a-financial-services-company/"
+      ],
+      "wordpressId": 300,
+      "title": "Modern SaaS UI 2",
+      "alt": "",
+      "width": 584,
+      "height": 454,
+      "attachedTo": 295,
+      "displayedWidth": "584",
+      "displayedHeight": "454",
+      "localPath": "/images/original/Modern-SaaS-UI-2.webp",
+      "downloaded": true,
+      "bytes": 24040,
+      "sha256": "b60636baa4e2d4a23bb1aee610b4c23bc28f1d1a2a7792bdb0f5f89b2d7d05c2",
+      "contentType": "image/webp"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Modern-SaaS-workspace-with-sleek-devices.webp",
+      "sources": [
+        "wordpress-media",
+        "https://customwebpro.webmastery.tech/",
+        "https://customwebpro.webmastery.tech/landing-page-for-a-financial-services-company/"
+      ],
+      "wordpressId": 299,
+      "title": "Modern SaaS workspace with sleek devices",
+      "alt": "",
+      "width": 1305,
+      "height": 1206,
+      "attachedTo": 295,
+      "displayedWidth": "1305",
+      "displayedHeight": "1206",
+      "localPath": "/images/original/Modern-SaaS-workspace-with-sleek-devices.webp",
+      "downloaded": true,
+      "bytes": 167114,
+      "sha256": "c600a78d1960837c1736ee97a1e2dbe7d56f3eeef724c82c0464024d06d6f7cc",
+      "contentType": "image/webp"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Modern-SaaS-UI-1.webp",
+      "sources": [
+        "wordpress-media",
+        "https://customwebpro.webmastery.tech/portfolio/",
+        "https://customwebpro.webmastery.tech/landing-page-for-a-financial-services-company/",
+        "https://customwebpro.webmastery.tech/category/website-design/",
+        "https://customwebpro.webmastery.tech/category/website-development/",
+        "https://customwebpro.webmastery.tech/category/ai-development/",
+        "https://customwebpro.webmastery.tech/author/webmastery26/"
+      ],
+      "wordpressId": 296,
+      "title": "Modern SaaS UI 1",
+      "alt": "",
+      "width": 1260,
+      "height": 682,
+      "attachedTo": 295,
+      "displayedWidth": "800",
+      "displayedHeight": "433",
+      "localPath": "/images/original/Modern-SaaS-UI-1.webp",
+      "downloaded": true,
+      "bytes": 73258,
+      "sha256": "0e0cd119087da1987f5f14bb83e421e99b20921f068726f7dd88d33f16de0e52",
+      "contentType": "image/webp"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Construction-company-website-3.webp",
+      "sources": [
+        "wordpress-media",
+        "https://customwebpro.webmastery.tech/website-development-for-a-construction-company/"
+      ],
+      "wordpressId": 288,
+      "title": "Construction company website 3",
+      "alt": "",
+      "width": 650,
+      "height": 594,
+      "attachedTo": 280,
+      "displayedWidth": "650",
+      "displayedHeight": "594",
+      "localPath": "/images/original/Construction-company-website-3.webp",
+      "downloaded": true,
+      "bytes": 59888,
+      "sha256": "873864d112dfbb20604e3f82c26ea0a33d693f3ac440527364b65bcfd5e1a66e",
+      "contentType": "image/webp"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Construction-company-website-2.webp",
+      "sources": [
+        "wordpress-media",
+        "https://customwebpro.webmastery.tech/website-development-for-a-construction-company/"
+      ],
+      "wordpressId": 287,
+      "title": "Construction company website 2",
+      "alt": "",
+      "width": 651,
+      "height": 601,
+      "attachedTo": 280,
+      "displayedWidth": "651",
+      "displayedHeight": "601",
+      "localPath": "/images/original/Construction-company-website-2.webp",
+      "downloaded": true,
+      "bytes": 43674,
+      "sha256": "847b38967bebdd82c626fce0d4c59e937171659ca911bcb2251a067cbd257185",
+      "contentType": "image/webp"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Construction-company-website-1.webp",
+      "sources": [
+        "wordpress-media",
+        "https://customwebpro.webmastery.tech/",
+        "https://customwebpro.webmastery.tech/portfolio/",
+        "https://customwebpro.webmastery.tech/website-development-for-a-construction-company/",
+        "https://customwebpro.webmastery.tech/category/website-design/",
+        "https://customwebpro.webmastery.tech/category/website-development/",
+        "https://customwebpro.webmastery.tech/category/ai-development/",
+        "https://customwebpro.webmastery.tech/author/webmastery26/"
+      ],
+      "wordpressId": 281,
+      "title": "Construction company website 1",
+      "alt": "",
+      "width": 648,
+      "height": 601,
+      "attachedTo": 280,
+      "displayedWidth": "648",
+      "displayedHeight": "601",
+      "localPath": "/images/original/Construction-company-website-1.webp",
+      "downloaded": true,
+      "bytes": 57344,
+      "sha256": "fde6926c43f898b22e6a2b92dca5b84b57c1db58707f33b0071801b696ebc008",
+      "contentType": "image/webp"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Restaurant-Website-UI-Design.webp",
+      "sources": [
+        "wordpress-media",
+        "https://customwebpro.webmastery.tech/ai-powered-restaurant-website/"
+      ],
+      "wordpressId": 269,
+      "title": "Restaurant Website UI Design",
+      "alt": "",
+      "width": 718,
+      "height": 2188,
+      "attachedTo": 265,
+      "displayedWidth": "718",
+      "displayedHeight": "2188",
+      "localPath": "/images/original/Restaurant-Website-UI-Design.webp",
+      "downloaded": true,
+      "bytes": 181622,
+      "sha256": "084a989e7c1e92d8af9ef54f09e158ced95cd900ccfde23ae9b9495cfded4b68",
+      "contentType": "image/webp"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Restaurant-Website-UI-Design-1.webp",
+      "sources": [
+        "wordpress-media",
+        "https://customwebpro.webmastery.tech/",
+        "https://customwebpro.webmastery.tech/portfolio/",
+        "https://customwebpro.webmastery.tech/ai-powered-restaurant-website/",
+        "https://customwebpro.webmastery.tech/category/website-design/",
+        "https://customwebpro.webmastery.tech/category/website-development/",
+        "https://customwebpro.webmastery.tech/category/website-maintenance/",
+        "https://customwebpro.webmastery.tech/author/webmastery26/"
+      ],
+      "wordpressId": 267,
+      "title": "Restaurant Website UI Design (1)",
+      "alt": "",
+      "width": 1448,
+      "height": 1086,
+      "attachedTo": 265,
+      "displayedWidth": "800",
+      "displayedHeight": "600",
+      "localPath": "/images/original/Restaurant-Website-UI-Design-1.webp",
+      "downloaded": true,
+      "bytes": 175710,
+      "sha256": "abeb17c8826fba6557f149272c830c38bced51f85e0a5e3b2809a4f6bf4d9237",
+      "contentType": "image/webp"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/31cb8c7d-5782-4544-a48a-c8445bdea291.webp",
+      "sources": [
+        "wordpress-media",
+        "https://customwebpro.webmastery.tech/"
+      ],
+      "wordpressId": 258,
+      "title": "31cb8c7d-5782-4544-a48a-c8445bdea291",
+      "alt": "",
+      "width": 100,
+      "height": 100,
+      "attachedTo": 175,
+      "displayedWidth": "70",
+      "displayedHeight": "70",
+      "localPath": "/images/original/31cb8c7d-5782-4544-a48a-c8445bdea291.webp",
+      "downloaded": true,
+      "bytes": 728,
+      "sha256": "58bd2a9d6108c94245a790ff4845df48f4afd964eb8f588c6c09bca0a9ffec2a",
+      "contentType": "image/webp"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/95925B1B-C281-4748-B231-F723CF6822ED.webp",
+      "sources": [
+        "wordpress-media",
+        "https://customwebpro.webmastery.tech/"
+      ],
+      "wordpressId": 257,
+      "title": "95925B1B-C281-4748-B231-F723CF6822ED",
+      "alt": "",
+      "width": 100,
+      "height": 100,
+      "attachedTo": 175,
+      "displayedWidth": "70",
+      "displayedHeight": "70",
+      "localPath": "/images/original/95925B1B-C281-4748-B231-F723CF6822ED.webp",
+      "downloaded": true,
+      "bytes": 3412,
+      "sha256": "42fc5675a116b08f0fa5092fe8e6439fb2bfdb372278e934a230cd21f8d5f510",
+      "contentType": "image/webp"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/83C678C1-9AE5-4D4C-A92C-6AB0CA218E36.webp",
+      "sources": [
+        "wordpress-media",
+        "https://customwebpro.webmastery.tech/"
+      ],
+      "wordpressId": 256,
+      "title": "83C678C1-9AE5-4D4C-A92C-6AB0CA218E36",
+      "alt": "",
+      "width": 100,
+      "height": 100,
+      "attachedTo": 175,
+      "displayedWidth": "70",
+      "displayedHeight": "70",
+      "localPath": "/images/original/83C678C1-9AE5-4D4C-A92C-6AB0CA218E36.webp",
+      "downloaded": true,
+      "bytes": 1532,
+      "sha256": "42d35dcfb7a9a5cc57de3b09eec0010c89935def4505b96aa4ec7df62612da1f",
+      "contentType": "image/webp"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-60.jpg",
+      "sources": [
+        "wordpress-media",
+        "https://customwebpro.webmastery.tech/wp-content/uploads/elementor/css/post-326.css?ver=1792126337"
+      ],
+      "wordpressId": 234,
+      "title": "New-Project-60.jpg",
+      "alt": "",
+      "width": 1440,
+      "height": 400,
+      "attachedTo": null,
+      "localPath": "/images/original/New-Project-60.jpg",
+      "downloaded": true,
+      "bytes": 82346,
+      "sha256": "b5ef8013a3d7d13ba6a73bd5cb94811fd14e6916eb38292f9b81dae68943af85",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-7.png",
+      "sources": [
+        "wordpress-media",
+        "https://customwebpro.webmastery.tech/"
+      ],
+      "wordpressId": 217,
+      "title": "image-removebg-preview (7)",
+      "alt": "image-removebg-preview (7)",
+      "width": 457,
+      "height": 140,
+      "attachedTo": null,
+      "displayedWidth": null,
+      "displayedHeight": null,
+      "localPath": "/images/original/image-removebg-preview-7.png",
+      "downloaded": true,
+      "bytes": 32251,
+      "sha256": "297ca0dd22bf770b0b6b4b6cbec05586dd097691ab3cc8e48cb7d002a3471ecd",
+      "contentType": "image/png"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-8.png",
+      "sources": [
+        "wordpress-media",
+        "https://customwebpro.webmastery.tech/"
+      ],
+      "wordpressId": 216,
+      "title": "image-removebg-preview (8)",
+      "alt": "image-removebg-preview (8)",
+      "width": 518,
+      "height": 153,
+      "attachedTo": null,
+      "displayedWidth": null,
+      "displayedHeight": null,
+      "localPath": "/images/original/image-removebg-preview-8.png",
+      "downloaded": true,
+      "bytes": 29828,
+      "sha256": "b7d607e5a5b38c2a6d5b69254ff880e571cd5ed638d0a34d737ae1b2b9362d5c",
+      "contentType": "image/png"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-9.png",
+      "sources": [
+        "wordpress-media",
+        "https://customwebpro.webmastery.tech/"
+      ],
+      "wordpressId": 215,
+      "title": "image-removebg-preview (9)",
+      "alt": "image-removebg-preview (9)",
+      "width": 735,
+      "height": 166,
+      "attachedTo": null,
+      "displayedWidth": null,
+      "displayedHeight": null,
+      "localPath": "/images/original/image-removebg-preview-9.png",
+      "downloaded": true,
+      "bytes": 33296,
+      "sha256": "69297e07787c67373c7298925208ca3e9e5336c71d36b69f86e10a1324fa9e98",
+      "contentType": "image/png"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-5.png",
+      "sources": [
+        "wordpress-media",
+        "https://customwebpro.webmastery.tech/"
+      ],
+      "wordpressId": 214,
+      "title": "image-removebg-preview (5)",
+      "alt": "image-removebg-preview (5)",
+      "width": 495,
+      "height": 160,
+      "attachedTo": null,
+      "displayedWidth": null,
+      "displayedHeight": null,
+      "localPath": "/images/original/image-removebg-preview-5.png",
+      "downloaded": true,
+      "bytes": 30982,
+      "sha256": "65431bbb8c488ad2f0814c6ccc1a80b4a206453b05a4e3fa04d6ed51d1445568",
+      "contentType": "image/png"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-6.png",
+      "sources": [
+        "wordpress-media",
+        "https://customwebpro.webmastery.tech/"
+      ],
+      "wordpressId": 213,
+      "title": "image-removebg-preview (6)",
+      "alt": "image-removebg-preview (6)",
+      "width": 485,
+      "height": 155,
+      "attachedTo": null,
+      "displayedWidth": null,
+      "displayedHeight": null,
+      "localPath": "/images/original/image-removebg-preview-6.png",
+      "downloaded": true,
+      "bytes": 32013,
+      "sha256": "718842fd388ab73915050c48dc5ef599f54f80d71ee9b5d04f0c7837f8ce4531",
+      "contentType": "image/png"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-4-1.png",
+      "sources": [
+        "wordpress-media"
+      ],
+      "wordpressId": 212,
+      "title": "image-removebg-preview (4)",
+      "alt": "",
+      "width": 991,
+      "height": 252,
+      "attachedTo": null,
+      "localPath": "/images/original/image-removebg-preview-4-1.png",
+      "downloaded": true,
+      "bytes": 87294,
+      "sha256": "76454da5d236858e56cbf9af40a66caa6503222321eb0c33d154a041d8f3642a",
+      "contentType": "image/png"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-3.png",
+      "sources": [
+        "wordpress-media",
+        "https://customwebpro.webmastery.tech/"
+      ],
+      "wordpressId": 211,
+      "title": "image-removebg-preview (3)",
+      "alt": "image-removebg-preview (3)",
+      "width": 586,
+      "height": 216,
+      "attachedTo": null,
+      "displayedWidth": null,
+      "displayedHeight": null,
+      "localPath": "/images/original/image-removebg-preview-3.png",
+      "downloaded": true,
+      "bytes": 61788,
+      "sha256": "308560b14a9a936d1c33e788734958ff12790e388cbc1dacfdda82441b7124a9",
+      "contentType": "image/png"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-4.png",
+      "sources": [
+        "wordpress-media",
+        "https://customwebpro.webmastery.tech/"
+      ],
+      "wordpressId": 210,
+      "title": "image-removebg-preview (4)",
+      "alt": "image-removebg-preview (4)",
+      "width": 991,
+      "height": 252,
+      "attachedTo": null,
+      "displayedWidth": null,
+      "displayedHeight": null,
+      "localPath": "/images/original/image-removebg-preview-4.png",
+      "downloaded": true,
+      "bytes": 87294,
+      "sha256": "76454da5d236858e56cbf9af40a66caa6503222321eb0c33d154a041d8f3642a",
+      "contentType": "image/png"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview.png",
+      "sources": [
+        "wordpress-media",
+        "https://customwebpro.webmastery.tech/"
+      ],
+      "wordpressId": 209,
+      "title": "image-removebg-preview",
+      "alt": "image-removebg-preview",
+      "width": 356,
+      "height": 124,
+      "attachedTo": null,
+      "displayedWidth": null,
+      "displayedHeight": null,
+      "localPath": "/images/original/image-removebg-preview.png",
+      "downloaded": true,
+      "bytes": 29539,
+      "sha256": "58521e692f4b08299c94cd1a4f73ae0c9c4d40dff76975be51b0192b5fa30471",
+      "contentType": "image/png"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-1.png",
+      "sources": [
+        "wordpress-media",
+        "https://customwebpro.webmastery.tech/"
+      ],
+      "wordpressId": 208,
+      "title": "image-removebg-preview (1)",
+      "alt": "image-removebg-preview (1)",
+      "width": 370,
+      "height": 111,
+      "attachedTo": null,
+      "displayedWidth": null,
+      "displayedHeight": null,
+      "localPath": "/images/original/image-removebg-preview-1.png",
+      "downloaded": true,
+      "bytes": 37122,
+      "sha256": "200ede437836d1f969449962605b856bee5d5e0e535fc3609e20c6309c7d189b",
+      "contentType": "image/png"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-2.png",
+      "sources": [
+        "wordpress-media",
+        "https://customwebpro.webmastery.tech/"
+      ],
+      "wordpressId": 207,
+      "title": "image-removebg-preview (2)",
+      "alt": "image-removebg-preview (2)",
+      "width": 377,
+      "height": 129,
+      "attachedTo": null,
+      "displayedWidth": null,
+      "displayedHeight": null,
+      "localPath": "/images/original/image-removebg-preview-2.png",
+      "downloaded": true,
+      "bytes": 31947,
+      "sha256": "660cf7f8b404193b3892c3c3dda0e088dccaff3a9e925bea8f74738bf3fcf1ea",
+      "contentType": "image/png"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Screenshot_3-removebg-preview.png",
+      "sources": [
+        "wordpress-media",
+        "https://customwebpro.webmastery.tech/"
+      ],
+      "wordpressId": 206,
+      "title": "Screenshot_3-removebg-preview",
+      "alt": "Screenshot_3-removebg-preview",
+      "width": 305,
+      "height": 117,
+      "attachedTo": null,
+      "displayedWidth": null,
+      "displayedHeight": null,
+      "localPath": "/images/original/Screenshot_3-removebg-preview.png",
+      "downloaded": true,
+      "bytes": 22044,
+      "sha256": "557e41ed14c450807b6cdac8f585858d50c69604789e7aa49906539a7984f2c9",
+      "contentType": "image/png"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Screenshot_2-removebg-preview.png",
+      "sources": [
+        "wordpress-media",
+        "https://customwebpro.webmastery.tech/"
+      ],
+      "wordpressId": 204,
+      "title": "Screenshot_2-removebg-preview",
+      "alt": "Screenshot_2-removebg-preview",
+      "width": 312,
+      "height": 101,
+      "attachedTo": null,
+      "displayedWidth": null,
+      "displayedHeight": null,
+      "localPath": "/images/original/Screenshot_2-removebg-preview.png",
+      "downloaded": true,
+      "bytes": 16589,
+      "sha256": "1adebd6d38542f2717a9f7d93ab142fd8ff1fdb6fff13c09505859efc3fee779",
+      "contentType": "image/png"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Screenshot_1.png",
+      "sources": [
+        "wordpress-media"
+      ],
+      "wordpressId": 171,
+      "title": "Screenshot_1",
+      "alt": "",
+      "width": 358,
+      "height": 170,
+      "attachedTo": 16,
+      "localPath": "/images/original/Screenshot_1.png",
+      "downloaded": true,
+      "bytes": 3961,
+      "sha256": "c4b65885ec44438da0a90a204bf454b27785b7b6e312e4cc9d73ae6667e4e621",
+      "contentType": "image/png"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/woocommerce-placeholder.webp",
+      "sources": [
+        "wordpress-media"
+      ],
+      "wordpressId": 156,
+      "title": "woocommerce-placeholder",
+      "alt": "",
+      "width": 1200,
+      "height": 1200,
+      "attachedTo": null,
+      "localPath": "/images/original/woocommerce-placeholder.webp",
+      "downloaded": true,
+      "bytes": 9892,
+      "sha256": "019e9beec61c9ee5b6009335c7846816452e1e3b420d2bb9e50327681dfade19",
+      "contentType": "image/webp"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Screenshot-2.png",
+      "sources": [
+        "wordpress-media",
+        "https://customwebpro.webmastery.tech/",
+        "https://customwebpro.webmastery.tech/portfolio/",
+        "https://customwebpro.webmastery.tech/home/",
+        "https://customwebpro.webmastery.tech/ai-writing-workflow-website-design/",
+        "https://customwebpro.webmastery.tech/landing-page-for-a-financial-services-company/",
+        "https://customwebpro.webmastery.tech/website-development-for-a-construction-company/",
+        "https://customwebpro.webmastery.tech/ai-powered-restaurant-website/",
+        "https://customwebpro.webmastery.tech/?elementskit_template=footer",
+        "https://customwebpro.webmastery.tech/category/website-design/",
+        "https://customwebpro.webmastery.tech/category/website-development/",
+        "https://customwebpro.webmastery.tech/category/website-maintenance/",
+        "https://customwebpro.webmastery.tech/category/ai-development/",
+        "https://customwebpro.webmastery.tech/author/webmastery26/"
+      ],
+      "wordpressId": 111,
+      "title": "Screenshot (2)",
+      "alt": "",
+      "width": 354,
+      "height": 82,
+      "attachedTo": 107,
+      "displayedWidth": "354",
+      "displayedHeight": "82",
+      "localPath": "/images/original/Screenshot-2.png",
+      "downloaded": true,
+      "bytes": 5444,
+      "sha256": "4e72ff2585ff72505312922f364de94b8439e6d42cb0384ea398b6960f5bd2e0",
+      "contentType": "image/png"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/footer-logo.png",
+      "sources": [
+        "wordpress-media"
+      ],
+      "wordpressId": 108,
+      "title": "footer-logo.png",
+      "alt": "",
+      "width": 172,
+      "height": 35,
+      "attachedTo": null,
+      "localPath": "/images/original/footer-logo.png",
+      "downloaded": true,
+      "bytes": 3004,
+      "sha256": "c181aed3775f84d231f55327e33c8da216144401f0af5e9831b762722559cb39",
+      "contentType": "image/png"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/WhatsApp_Image_2026-10-15_at_1.10.11_PM-removebg-preview.png",
+      "sources": [
+        "wordpress-media",
+        "https://customwebpro.webmastery.tech/home/"
+      ],
+      "wordpressId": 100,
+      "title": "WhatsApp_Image_2026-10-15_at_1.10.11_PM-removebg-preview",
+      "alt": "",
+      "width": 440,
+      "height": 568,
+      "attachedTo": 16,
+      "displayedWidth": "440",
+      "displayedHeight": "568",
+      "localPath": "/images/original/WhatsApp_Image_2026-10-15_at_1.10.11_PM-removebg-preview.png",
+      "downloaded": true,
+      "bytes": 135705,
+      "sha256": "d3e90121fb7cdec1dc2c490f8312865bbc7ad4c8e43d7cdf31f07008f6b7c082",
+      "contentType": "image/png"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-15-at-1.10.11-PM.jpeg",
+      "sources": [
+        "wordpress-media"
+      ],
+      "wordpressId": 99,
+      "title": "WhatsApp Image 2026-10-15 at 1.10.11 PM",
+      "alt": "",
+      "width": 1104,
+      "height": 1425,
+      "attachedTo": 16,
+      "localPath": "/images/original/WhatsApp-Image-2026-10-15-at-1.10.11-PM.jpeg",
+      "downloaded": true,
+      "bytes": 154377,
+      "sha256": "35d9865d45ee254985231052cb49af26441c44bbf1274eb58c270f858ef33bf0",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Screenshot-removebg-preview.png",
+      "sources": [
+        "wordpress-media",
+        "https://customwebpro.webmastery.tech/",
+        "https://customwebpro.webmastery.tech/portfolio/",
+        "https://customwebpro.webmastery.tech/home/",
+        "https://customwebpro.webmastery.tech/ai-writing-workflow-website-design/",
+        "https://customwebpro.webmastery.tech/landing-page-for-a-financial-services-company/",
+        "https://customwebpro.webmastery.tech/website-development-for-a-construction-company/",
+        "https://customwebpro.webmastery.tech/ai-powered-restaurant-website/",
+        "https://customwebpro.webmastery.tech/?elementskit_template=header",
+        "https://customwebpro.webmastery.tech/category/website-design/",
+        "https://customwebpro.webmastery.tech/category/website-development/",
+        "https://customwebpro.webmastery.tech/category/website-maintenance/",
+        "https://customwebpro.webmastery.tech/category/ai-development/",
+        "https://customwebpro.webmastery.tech/author/webmastery26/"
+      ],
+      "wordpressId": 89,
+      "title": "Screenshot-removebg-preview",
+      "alt": "Screenshot-removebg-preview",
+      "width": 362,
+      "height": 88,
+      "attachedTo": 66,
+      "displayedWidth": null,
+      "displayedHeight": null,
+      "localPath": "/images/original/Screenshot-removebg-preview.png",
+      "downloaded": true,
+      "bytes": 14088,
+      "sha256": "4676c24fea06bf19930231fc26887b44c2f0b621b347e254db71e27d62e66b73",
+      "contentType": "image/png"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/cropped-Screenshot.png",
+      "sources": [
+        "wordpress-media"
+      ],
+      "wordpressId": 65,
+      "title": "cropped-Screenshot.png",
+      "alt": "",
+      "width": 512,
+      "height": 512,
+      "attachedTo": 64,
+      "localPath": "/images/original/cropped-Screenshot.png",
+      "downloaded": true,
+      "bytes": 40424,
+      "sha256": "e8b01013380abf397f148e8240568c9a5facaba4400564257bb9bab42647fc60",
+      "contentType": "image/png"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Screenshot.png",
+      "sources": [
+        "wordpress-media"
+      ],
+      "wordpressId": 64,
+      "title": "Screenshot",
+      "alt": "",
+      "width": 362,
+      "height": 88,
+      "attachedTo": null,
+      "localPath": "/images/original/Screenshot.png",
+      "downloaded": true,
+      "bytes": 5095,
+      "sha256": "25cd1f6a2a41248ba73ecb571c8434b7e00dcdec298f6953a9ecdc0cb539c429",
+      "contentType": "image/png"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Gemini_Generated_Image_3g38z63g38z63g38.jpg",
+      "sources": [
+        "wordpress-media",
+        "https://customwebpro.webmastery.tech/",
+        "https://customwebpro.webmastery.tech/home/"
+      ],
+      "wordpressId": 54,
+      "title": "Gemini_Generated_Image_3g38z63g38z63g38",
+      "alt": "",
+      "width": 1024,
+      "height": 1024,
+      "attachedTo": 16,
+      "displayedWidth": "800",
+      "displayedHeight": "800",
+      "localPath": "/images/original/Gemini_Generated_Image_3g38z63g38z63g38.jpg",
+      "downloaded": true,
+      "bytes": 62633,
+      "sha256": "dcdab8f5e105b397d3ce9a2cdd097dc301f872adb1fba845ca969bf92c0d9049",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Gemini_Generated_Image_dr4ojrdr4ojrdr4o-removebg-preview.png",
+      "sources": [
+        "wordpress-media",
+        "https://customwebpro.webmastery.tech/",
+        "https://customwebpro.webmastery.tech/home/"
+      ],
+      "wordpressId": 53,
+      "title": "Gemini_Generated_Image_dr4ojrdr4ojrdr4o-removebg-preview",
+      "alt": "",
+      "width": 448,
+      "height": 557,
+      "attachedTo": 16,
+      "displayedWidth": "448",
+      "displayedHeight": "557",
+      "localPath": "/images/original/Gemini_Generated_Image_dr4ojrdr4ojrdr4o-removebg-preview.png",
+      "downloaded": true,
+      "bytes": 195765,
+      "sha256": "d92464cebc2f263e32db2b29e710aae27b89528a7d12c88d313ed78da868a9ef",
+      "contentType": "image/png"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Gemini_Generated_Image_jwtqv6jwtqv6jwtq-removebg-preview.png",
+      "sources": [
+        "wordpress-media"
+      ],
+      "wordpressId": 52,
+      "title": "Gemini_Generated_Image_jwtqv6jwtqv6jwtq-removebg-preview",
+      "alt": "",
+      "width": 439,
+      "height": 568,
+      "attachedTo": 16,
+      "localPath": "/images/original/Gemini_Generated_Image_jwtqv6jwtqv6jwtq-removebg-preview.png",
+      "downloaded": true,
+      "bytes": 175704,
+      "sha256": "b18b0abf2f1e2ad49a731a1cb14acd9aac678693b75b4f5bfecd2ed2b317152d",
+      "contentType": "image/png"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Gemini_Generated_Image_jwtqv6jwtqv6jwtq.jpg",
+      "sources": [
+        "wordpress-media"
+      ],
+      "wordpressId": 51,
+      "title": "Gemini_Generated_Image_jwtqv6jwtqv6jwtq",
+      "alt": "",
+      "width": 912,
+      "height": 1178,
+      "attachedTo": 16,
+      "localPath": "/images/original/Gemini_Generated_Image_jwtqv6jwtqv6jwtq.jpg",
+      "downloaded": true,
+      "bytes": 101539,
+      "sha256": "38f6ee7fd4547387c3529d5c480a74dd7b5fcfeec7bd06b471dbdb6dbfdaf5f2",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/placeholder.png",
+      "sources": [
+        "wordpress-media"
+      ],
+      "wordpressId": 42,
+      "title": "placeholder.png",
+      "alt": "",
+      "width": 1200,
+      "height": 800,
+      "attachedTo": null,
+      "localPath": "/images/original/placeholder.png",
+      "downloaded": true,
+      "bytes": 7042,
+      "sha256": "5e0deb5b7dd7e20117a75026c60e1917bb1961b37701e51f5c417f1ee2b4ec4a",
+      "contentType": "image/png"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-51.jpg",
+      "sources": [
+        "wordpress-media",
+        "https://customwebpro.webmastery.tech/wp-content/uploads/elementor/css/post-16.css?ver=1792304407"
+      ],
+      "wordpressId": 41,
+      "title": "New-Project-51.jpg",
+      "alt": "",
+      "width": 410,
+      "height": 464,
+      "attachedTo": null,
+      "localPath": "/images/original/New-Project-51.jpg",
+      "downloaded": true,
+      "bytes": 37349,
+      "sha256": "70987d1c429b1e83cf9c09ce6c3469d6c9d834b0ffd2aa1c237367344ac05261",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-50.jpg",
+      "sources": [
+        "wordpress-media",
+        "https://customwebpro.webmastery.tech/wp-content/uploads/elementor/css/post-16.css?ver=1792304407"
+      ],
+      "wordpressId": 40,
+      "title": "New-Project-50.jpg",
+      "alt": "",
+      "width": 410,
+      "height": 464,
+      "attachedTo": null,
+      "localPath": "/images/original/New-Project-50.jpg",
+      "downloaded": true,
+      "bytes": 30897,
+      "sha256": "d8c8c62a52a27146b88a1d3a4ddfa62109749da42097cdee9b4a60c635fc2327",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-49.jpg",
+      "sources": [
+        "wordpress-media",
+        "https://customwebpro.webmastery.tech/wp-content/uploads/elementor/css/post-16.css?ver=1792304407"
+      ],
+      "wordpressId": 39,
+      "title": "New-Project-49.jpg",
+      "alt": "",
+      "width": 410,
+      "height": 464,
+      "attachedTo": null,
+      "localPath": "/images/original/New-Project-49.jpg",
+      "downloaded": true,
+      "bytes": 27064,
+      "sha256": "f264d70234c40d5c1529966a9583201a8bfd6e5ffb55380a45675aa975615f7f",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-46.jpg",
+      "sources": [
+        "wordpress-media",
+        "https://customwebpro.webmastery.tech/home/"
+      ],
+      "wordpressId": 38,
+      "title": "New-Project-46.jpg",
+      "alt": "",
+      "width": 520,
+      "height": 560,
+      "attachedTo": null,
+      "displayedWidth": "520",
+      "displayedHeight": "560",
+      "localPath": "/images/original/New-Project-46.jpg",
+      "downloaded": true,
+      "bytes": 41435,
+      "sha256": "df89142b882797181da9798a7112a84694f3d4262ffbee6c9be7afb6e69b17c0",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-48.jpg",
+      "sources": [
+        "wordpress-media",
+        "https://customwebpro.webmastery.tech/home/"
+      ],
+      "wordpressId": 37,
+      "title": "New-Project-48.jpg",
+      "alt": "",
+      "width": 550,
+      "height": 400,
+      "attachedTo": null,
+      "displayedWidth": "550",
+      "displayedHeight": "400",
+      "localPath": "/images/original/New-Project-48.jpg",
+      "downloaded": true,
+      "bytes": 49450,
+      "sha256": "2070e7bec50cc74d233f7e96f7b6c5b01e76d40fa7dba69ec2b300fc555647e4",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-47.jpg",
+      "sources": [
+        "wordpress-media",
+        "https://customwebpro.webmastery.tech/home/"
+      ],
+      "wordpressId": 36,
+      "title": "New-Project-47.jpg",
+      "alt": "",
+      "width": 550,
+      "height": 400,
+      "attachedTo": null,
+      "displayedWidth": "550",
+      "displayedHeight": "400",
+      "localPath": "/images/original/New-Project-47.jpg",
+      "downloaded": true,
+      "bytes": 61593,
+      "sha256": "62601bca26e63a51418005b90b46621550d1c0e4907964520184658f83ae3008",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-45.jpg",
+      "sources": [
+        "wordpress-media",
+        "https://customwebpro.webmastery.tech/home/"
+      ],
+      "wordpressId": 35,
+      "title": "New-Project-45.jpg",
+      "alt": "",
+      "width": 520,
+      "height": 560,
+      "attachedTo": null,
+      "displayedWidth": "520",
+      "displayedHeight": "560",
+      "localPath": "/images/original/New-Project-45.jpg",
+      "downloaded": true,
+      "bytes": 53295,
+      "sha256": "858a6d75424b69762fa81f9eb79999fee9652ed198ee5f95100c2acf464bed09",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/circle-2.png",
+      "sources": [
+        "wordpress-media"
+      ],
+      "wordpressId": 34,
+      "title": "circle-2.png",
+      "alt": "",
+      "width": 213,
+      "height": 213,
+      "attachedTo": null,
+      "localPath": "/images/original/circle-2.png",
+      "downloaded": true,
+      "bytes": 7604,
+      "sha256": "287fad6e4787fd1ec8c26fc71160ff0032423384095cf3a9aa6da855e0d80a60",
+      "contentType": "image/png"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-44.jpg",
+      "sources": [
+        "wordpress-media"
+      ],
+      "wordpressId": 33,
+      "title": "New-Project-44.jpg",
+      "alt": "",
+      "width": 585,
+      "height": 640,
+      "attachedTo": null,
+      "localPath": "/images/original/New-Project-44.jpg",
+      "downloaded": true,
+      "bytes": 62997,
+      "sha256": "11c45f4b5b2096a408e4e212f144c3097ef6e015242c6d38168aa9fdf70449e6",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-43.jpg",
+      "sources": [
+        "wordpress-media",
+        "https://customwebpro.webmastery.tech/",
+        "https://customwebpro.webmastery.tech/home/"
+      ],
+      "wordpressId": 32,
+      "title": "New-Project-43.jpg",
+      "alt": "",
+      "width": 605,
+      "height": 321,
+      "attachedTo": null,
+      "displayedWidth": "605",
+      "displayedHeight": "321",
+      "localPath": "/images/original/New-Project-43.jpg",
+      "downloaded": true,
+      "bytes": 41018,
+      "sha256": "3c3eda4abb5d1ea12556f89ca21acc0ac92f7539407b6e65a84e4ec829e9e715",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/brand-5-1.png",
+      "sources": [
+        "wordpress-media",
+        "https://customwebpro.webmastery.tech/home/"
+      ],
+      "wordpressId": 31,
+      "title": "brand-5-1.png",
+      "alt": "brand-5-1.png",
+      "width": 165,
+      "height": 40,
+      "attachedTo": null,
+      "displayedWidth": null,
+      "displayedHeight": null,
+      "localPath": "/images/original/brand-5-1.png",
+      "downloaded": true,
+      "bytes": 2681,
+      "sha256": "abee8114457c08e8d8fc2d831d7bd64946c98da6664c8ed1586548ab239f4ca8",
+      "contentType": "image/png"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/brand-4-1.png",
+      "sources": [
+        "wordpress-media",
+        "https://customwebpro.webmastery.tech/home/"
+      ],
+      "wordpressId": 30,
+      "title": "brand-4-1.png",
+      "alt": "brand-4-1.png",
+      "width": 135,
+      "height": 24,
+      "attachedTo": null,
+      "displayedWidth": null,
+      "displayedHeight": null,
+      "localPath": "/images/original/brand-4-1.png",
+      "downloaded": true,
+      "bytes": 2550,
+      "sha256": "5956ba8313ede20661bd98990746caed8453a8662cec02febc8ec353ec3e706d",
+      "contentType": "image/png"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/brand-2-1.png",
+      "sources": [
+        "wordpress-media",
+        "https://customwebpro.webmastery.tech/home/"
+      ],
+      "wordpressId": 29,
+      "title": "brand-2-1.png",
+      "alt": "brand-2-1.png",
+      "width": 163,
+      "height": 32,
+      "attachedTo": null,
+      "displayedWidth": null,
+      "displayedHeight": null,
+      "localPath": "/images/original/brand-2-1.png",
+      "downloaded": true,
+      "bytes": 2864,
+      "sha256": "a60bcb9a31bdc2319be600f40e0de14bb9b0ce76886a19dcd8aad38d66e255e7",
+      "contentType": "image/png"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/brand-3-1.png",
+      "sources": [
+        "wordpress-media",
+        "https://customwebpro.webmastery.tech/home/"
+      ],
+      "wordpressId": 28,
+      "title": "brand-3-1.png",
+      "alt": "brand-3-1.png",
+      "width": 121,
+      "height": 30,
+      "attachedTo": null,
+      "displayedWidth": null,
+      "displayedHeight": null,
+      "localPath": "/images/original/brand-3-1.png",
+      "downloaded": true,
+      "bytes": 1952,
+      "sha256": "f69aed38f98672a986f742970bc8608988dccaa47c4214d9c87ce7a19a978a9a",
+      "contentType": "image/png"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/brand-1-1.png",
+      "sources": [
+        "wordpress-media",
+        "https://customwebpro.webmastery.tech/home/"
+      ],
+      "wordpressId": 27,
+      "title": "brand-1-1.png",
+      "alt": "brand-1-1.png",
+      "width": 141,
+      "height": 42,
+      "attachedTo": null,
+      "displayedWidth": null,
+      "displayedHeight": null,
+      "localPath": "/images/original/brand-1-1.png",
+      "downloaded": true,
+      "bytes": 3416,
+      "sha256": "5bf6c0e9d05343ceb0f80ed37a3c536f3e528ab895ecb53c43923b3d5e1445ff",
+      "contentType": "image/png"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/logo.png",
+      "sources": [
+        "wordpress-media",
+        "https://customwebpro.webmastery.tech/home/"
+      ],
+      "wordpressId": 26,
+      "title": "logo.png",
+      "alt": "logo.png",
+      "width": 172,
+      "height": 35,
+      "attachedTo": null,
+      "displayedWidth": null,
+      "displayedHeight": null,
+      "localPath": "/images/original/logo.png",
+      "downloaded": true,
+      "bytes": 3713,
+      "sha256": "2c1bcf5f1c0f063a4ef393d474d1262fd0d424bde3dd7ef939c3d45629f02e48",
+      "contentType": "image/png"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-56.jpg",
+      "sources": [
+        "wordpress-media",
+        "https://customwebpro.webmastery.tech/",
+        "https://customwebpro.webmastery.tech/home/"
+      ],
+      "wordpressId": 25,
+      "title": "New-Project-56.jpg",
+      "alt": "",
+      "width": 46,
+      "height": 45,
+      "attachedTo": null,
+      "displayedWidth": "70",
+      "displayedHeight": "70",
+      "localPath": "/images/original/New-Project-56.jpg",
+      "downloaded": true,
+      "bytes": 1475,
+      "sha256": "4ec5227bfc52382bbdfa3e5129bd2ab0ab8f72599412f0741bc5efb2eb2972f5",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-53.jpg",
+      "sources": [
+        "wordpress-media",
+        "https://customwebpro.webmastery.tech/",
+        "https://customwebpro.webmastery.tech/home/"
+      ],
+      "wordpressId": 24,
+      "title": "New-Project-53.jpg",
+      "alt": "",
+      "width": 46,
+      "height": 45,
+      "attachedTo": null,
+      "displayedWidth": "70",
+      "displayedHeight": "70",
+      "localPath": "/images/original/New-Project-53.jpg",
+      "downloaded": true,
+      "bytes": 1459,
+      "sha256": "5162aa78e031ba99b7715916b986f194c5edd478a845feaddf59768d36baf617",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-54.jpg",
+      "sources": [
+        "wordpress-media",
+        "https://customwebpro.webmastery.tech/",
+        "https://customwebpro.webmastery.tech/home/"
+      ],
+      "wordpressId": 23,
+      "title": "New-Project-54.jpg",
+      "alt": "",
+      "width": 46,
+      "height": 45,
+      "attachedTo": null,
+      "displayedWidth": "46",
+      "displayedHeight": "45",
+      "localPath": "/images/original/New-Project-54.jpg",
+      "downloaded": true,
+      "bytes": 1309,
+      "sha256": "f148e095359bf55cb4ce36ca9cbb59ebf54a70233be5b9ee2f5b407826d28b99",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-55.jpg",
+      "sources": [
+        "wordpress-media",
+        "https://customwebpro.webmastery.tech/",
+        "https://customwebpro.webmastery.tech/home/"
+      ],
+      "wordpressId": 22,
+      "title": "New-Project-55.jpg",
+      "alt": "",
+      "width": 46,
+      "height": 45,
+      "attachedTo": null,
+      "displayedWidth": "70",
+      "displayedHeight": "70",
+      "localPath": "/images/original/New-Project-55.jpg",
+      "downloaded": true,
+      "bytes": 1225,
+      "sha256": "24702f07b1fd3046a6d3c729d8dd0927e10f49d0ff52061f3b42b3b5676b2659",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/banner_author.png",
+      "sources": [
+        "wordpress-media"
+      ],
+      "wordpressId": 21,
+      "title": "banner_author.png",
+      "alt": "",
+      "width": 483,
+      "height": 521,
+      "attachedTo": null,
+      "localPath": "/images/original/banner_author.png",
+      "downloaded": true,
+      "bytes": 139570,
+      "sha256": "bb9abcb1e7d1685a4ffeca02bb728c1e9c410cea51114710ebb592473388101f",
+      "contentType": "image/png"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/since_1998.png",
+      "sources": [
+        "wordpress-media"
+      ],
+      "wordpressId": 20,
+      "title": "since_1998.png",
+      "alt": "",
+      "width": 113,
+      "height": 113,
+      "attachedTo": null,
+      "localPath": "/images/original/since_1998.png",
+      "downloaded": true,
+      "bytes": 5378,
+      "sha256": "eee833073b5c823ba84895e6f6bc899118d513dfbc1f8c261a2945976ccbd1bd",
+      "contentType": "image/png"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-5.png",
+      "sources": [
+        "wordpress-media"
+      ],
+      "wordpressId": 19,
+      "title": "New-Project-5.png",
+      "alt": "",
+      "width": 164,
+      "height": 186,
+      "attachedTo": null,
+      "localPath": "/images/original/New-Project-5.png",
+      "downloaded": true,
+      "bytes": 34403,
+      "sha256": "3e8e289e185e08ba850ec4cfb39d112c0f13d88acdfe9084dceb1d1d3934ead5",
+      "contentType": "image/png"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/qi-addons-for-elementor-placeholder.png",
+      "sources": [
+        "wordpress-media"
+      ],
+      "wordpressId": 7,
+      "title": "qi-addons-for-elementor-placeholder",
+      "alt": "",
+      "width": 1200,
+      "height": 800,
+      "attachedTo": null,
+      "localPath": "/images/original/qi-addons-for-elementor-placeholder.png",
+      "downloaded": true,
+      "bytes": 15039,
+      "sha256": "ea671a47f3471449af667e6ed159f6b1686af80f852e4be1979ee57fe5664e15",
+      "contentType": "image/png"
+    }
+  ],
+  "responsiveAliases": {
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/academy-300x175.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/academy.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/academy-1024x598.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/academy.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/academy-150x150.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/academy.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/academy-768x449.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/academy.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/academy-1536x897.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/academy.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/academy.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/academy.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Confident-Business-Portrait-Cutout-233x300.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Confident-Business-Portrait-Cutout.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Confident-Business-Portrait-Cutout-795x1024.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Confident-Business-Portrait-Cutout.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Confident-Business-Portrait-Cutout-150x150.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Confident-Business-Portrait-Cutout.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Confident-Business-Portrait-Cutout-768x990.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Confident-Business-Portrait-Cutout.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Confident-Business-Portrait-Cutout.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Confident-Business-Portrait-Cutout.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Untitled-3-300x237.webp": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Untitled-3.webp",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Untitled-3-1024x809.webp": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Untitled-3.webp",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Untitled-3-150x150.webp": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Untitled-3.webp",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Untitled-3-768x607.webp": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Untitled-3.webp",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Untitled-3.webp": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Untitled-3.webp",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Untitled-2-300x237.webp": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Untitled-2.webp",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Untitled-2-1024x809.webp": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Untitled-2.webp",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Untitled-2-150x150.webp": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Untitled-2.webp",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Untitled-2-768x607.webp": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Untitled-2.webp",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Untitled-2.webp": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Untitled-2.webp",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Untitled-1-300x237.webp": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Untitled-1.webp",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Untitled-1-1024x809.webp": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Untitled-1.webp",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Untitled-1-150x150.webp": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Untitled-1.webp",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Untitled-1-768x607.webp": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Untitled-1.webp",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Untitled-1.webp": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Untitled-1.webp",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Modern-SaaS-UI-2-300x233.webp": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Modern-SaaS-UI-2.webp",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Modern-SaaS-UI-2-150x150.webp": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Modern-SaaS-UI-2.webp",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Modern-SaaS-UI-2.webp": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Modern-SaaS-UI-2.webp",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Modern-SaaS-workspace-with-sleek-devices-300x277.webp": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Modern-SaaS-workspace-with-sleek-devices.webp",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Modern-SaaS-workspace-with-sleek-devices-1024x946.webp": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Modern-SaaS-workspace-with-sleek-devices.webp",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Modern-SaaS-workspace-with-sleek-devices-150x150.webp": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Modern-SaaS-workspace-with-sleek-devices.webp",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Modern-SaaS-workspace-with-sleek-devices-768x710.webp": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Modern-SaaS-workspace-with-sleek-devices.webp",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Modern-SaaS-workspace-with-sleek-devices.webp": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Modern-SaaS-workspace-with-sleek-devices.webp",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Modern-SaaS-UI-1-300x162.webp": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Modern-SaaS-UI-1.webp",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Modern-SaaS-UI-1-1024x554.webp": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Modern-SaaS-UI-1.webp",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Modern-SaaS-UI-1-150x150.webp": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Modern-SaaS-UI-1.webp",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Modern-SaaS-UI-1-768x416.webp": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Modern-SaaS-UI-1.webp",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Modern-SaaS-UI-1.webp": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Modern-SaaS-UI-1.webp",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Construction-company-website-3-300x274.webp": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Construction-company-website-3.webp",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Construction-company-website-3-150x150.webp": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Construction-company-website-3.webp",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Construction-company-website-3.webp": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Construction-company-website-3.webp",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Construction-company-website-2-300x277.webp": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Construction-company-website-2.webp",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Construction-company-website-2-150x150.webp": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Construction-company-website-2.webp",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Construction-company-website-2.webp": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Construction-company-website-2.webp",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Construction-company-website-1-300x278.webp": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Construction-company-website-1.webp",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Construction-company-website-1-150x150.webp": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Construction-company-website-1.webp",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Construction-company-website-1.webp": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Construction-company-website-1.webp",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Restaurant-Website-UI-Design-98x300.webp": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Restaurant-Website-UI-Design.webp",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Restaurant-Website-UI-Design-336x1024.webp": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Restaurant-Website-UI-Design.webp",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Restaurant-Website-UI-Design-150x150.webp": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Restaurant-Website-UI-Design.webp",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Restaurant-Website-UI-Design-504x1536.webp": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Restaurant-Website-UI-Design.webp",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Restaurant-Website-UI-Design-672x2048.webp": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Restaurant-Website-UI-Design.webp",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Restaurant-Website-UI-Design.webp": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Restaurant-Website-UI-Design.webp",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Restaurant-Website-UI-Design-1-300x225.webp": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Restaurant-Website-UI-Design-1.webp",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Restaurant-Website-UI-Design-1-1024x768.webp": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Restaurant-Website-UI-Design-1.webp",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Restaurant-Website-UI-Design-1-150x150.webp": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Restaurant-Website-UI-Design-1.webp",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Restaurant-Website-UI-Design-1-768x576.webp": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Restaurant-Website-UI-Design-1.webp",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Restaurant-Website-UI-Design-1.webp": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Restaurant-Website-UI-Design-1.webp",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-60-300x83.jpg": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-60.jpg",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-60-1024x284.jpg": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-60.jpg",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-60-150x150.jpg": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-60.jpg",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-60-768x213.jpg": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-60.jpg",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-60.jpg": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-60.jpg",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-7-300x92.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-7.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-7-150x140.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-7.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-7.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-7.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-8-300x89.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-8.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-8-150x150.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-8.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-8.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-8.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-9-300x68.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-9.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-9-150x150.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-9.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-9.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-9.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-5-300x97.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-5.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-5-150x150.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-5.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-5.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-5.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-6-300x96.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-6.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-6-150x150.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-6.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-6.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-6.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-4-1-300x76.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-4-1.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-4-1-150x150.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-4-1.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-4-1-768x195.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-4-1.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-4-1.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-4-1.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-3-300x111.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-3.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-3-150x150.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-3.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-3.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-3.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-4-300x76.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-4.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-4-150x150.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-4.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-4-768x195.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-4.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-4.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-4.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-300x104.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-150x124.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-1-300x90.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-1.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-1-150x111.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-1.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-1.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-1.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-2-300x103.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-2.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-2-150x129.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-2.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-2.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-2.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Screenshot_3-removebg-preview-300x115.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Screenshot_3-removebg-preview.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Screenshot_3-removebg-preview-150x117.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Screenshot_3-removebg-preview.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Screenshot_3-removebg-preview.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Screenshot_3-removebg-preview.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Screenshot_2-removebg-preview-300x97.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Screenshot_2-removebg-preview.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Screenshot_2-removebg-preview-150x101.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Screenshot_2-removebg-preview.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Screenshot_2-removebg-preview.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Screenshot_2-removebg-preview.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Screenshot_1-300x142.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Screenshot_1.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Screenshot_1-150x150.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Screenshot_1.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Screenshot_1.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Screenshot_1.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/woocommerce-placeholder-300x300.webp": "https://customwebpro.webmastery.tech/wp-content/uploads/woocommerce-placeholder.webp",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/woocommerce-placeholder-1024x1024.webp": "https://customwebpro.webmastery.tech/wp-content/uploads/woocommerce-placeholder.webp",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/woocommerce-placeholder-150x150.webp": "https://customwebpro.webmastery.tech/wp-content/uploads/woocommerce-placeholder.webp",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/woocommerce-placeholder-768x768.webp": "https://customwebpro.webmastery.tech/wp-content/uploads/woocommerce-placeholder.webp",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/woocommerce-placeholder-650x650.webp": "https://customwebpro.webmastery.tech/wp-content/uploads/woocommerce-placeholder.webp",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/woocommerce-placeholder-1200x650.webp": "https://customwebpro.webmastery.tech/wp-content/uploads/woocommerce-placeholder.webp",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/woocommerce-placeholder-650x1200.webp": "https://customwebpro.webmastery.tech/wp-content/uploads/woocommerce-placeholder.webp",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/woocommerce-placeholder.webp": "https://customwebpro.webmastery.tech/wp-content/uploads/woocommerce-placeholder.webp",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Screenshot-2-300x69.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Screenshot-2.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Screenshot-2-150x82.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Screenshot-2.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Screenshot-2.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Screenshot-2.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/footer-logo-150x35.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/footer-logo.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/footer-logo.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/footer-logo.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/WhatsApp_Image_2026-10-15_at_1.10.11_PM-removebg-preview-232x300.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/WhatsApp_Image_2026-10-15_at_1.10.11_PM-removebg-preview.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/WhatsApp_Image_2026-10-15_at_1.10.11_PM-removebg-preview-150x150.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/WhatsApp_Image_2026-10-15_at_1.10.11_PM-removebg-preview.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/WhatsApp_Image_2026-10-15_at_1.10.11_PM-removebg-preview.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/WhatsApp_Image_2026-10-15_at_1.10.11_PM-removebg-preview.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-15-at-1.10.11-PM-232x300.jpeg": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-15-at-1.10.11-PM.jpeg",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-15-at-1.10.11-PM-793x1024.jpeg": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-15-at-1.10.11-PM.jpeg",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-15-at-1.10.11-PM-150x150.jpeg": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-15-at-1.10.11-PM.jpeg",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-15-at-1.10.11-PM-768x991.jpeg": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-15-at-1.10.11-PM.jpeg",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-15-at-1.10.11-PM-650x650.jpeg": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-15-at-1.10.11-PM.jpeg",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-15-at-1.10.11-PM-1104x650.jpeg": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-15-at-1.10.11-PM.jpeg",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-15-at-1.10.11-PM-650x1300.jpeg": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-15-at-1.10.11-PM.jpeg",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-15-at-1.10.11-PM-1104x1300.jpeg": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-15-at-1.10.11-PM.jpeg",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-15-at-1.10.11-PM.jpeg": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-15-at-1.10.11-PM.jpeg",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Screenshot-removebg-preview-300x73.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Screenshot-removebg-preview.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Screenshot-removebg-preview-150x88.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Screenshot-removebg-preview.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Screenshot-removebg-preview.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Screenshot-removebg-preview.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/cropped-Screenshot-300x300.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/cropped-Screenshot.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/cropped-Screenshot-150x150.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/cropped-Screenshot.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/cropped-Screenshot-270x270.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/cropped-Screenshot.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/cropped-Screenshot-192x192.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/cropped-Screenshot.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/cropped-Screenshot-180x180.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/cropped-Screenshot.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/cropped-Screenshot-64x64.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/cropped-Screenshot.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/cropped-Screenshot-32x32.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/cropped-Screenshot.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/cropped-Screenshot.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/cropped-Screenshot.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Screenshot-300x73.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Screenshot.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Screenshot-150x88.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Screenshot.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Screenshot.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Screenshot.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Gemini_Generated_Image_3g38z63g38z63g38-300x300.jpg": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Gemini_Generated_Image_3g38z63g38z63g38.jpg",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Gemini_Generated_Image_3g38z63g38z63g38-150x150.jpg": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Gemini_Generated_Image_3g38z63g38z63g38.jpg",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Gemini_Generated_Image_3g38z63g38z63g38-768x768.jpg": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Gemini_Generated_Image_3g38z63g38z63g38.jpg",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Gemini_Generated_Image_3g38z63g38z63g38-650x650.jpg": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Gemini_Generated_Image_3g38z63g38z63g38.jpg",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Gemini_Generated_Image_3g38z63g38z63g38-1024x650.jpg": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Gemini_Generated_Image_3g38z63g38z63g38.jpg",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Gemini_Generated_Image_3g38z63g38z63g38-650x1024.jpg": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Gemini_Generated_Image_3g38z63g38z63g38.jpg",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Gemini_Generated_Image_3g38z63g38z63g38.jpg": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Gemini_Generated_Image_3g38z63g38z63g38.jpg",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Gemini_Generated_Image_dr4ojrdr4ojrdr4o-removebg-preview-241x300.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Gemini_Generated_Image_dr4ojrdr4ojrdr4o-removebg-preview.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Gemini_Generated_Image_dr4ojrdr4ojrdr4o-removebg-preview-150x150.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Gemini_Generated_Image_dr4ojrdr4ojrdr4o-removebg-preview.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Gemini_Generated_Image_dr4ojrdr4ojrdr4o-removebg-preview.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Gemini_Generated_Image_dr4ojrdr4ojrdr4o-removebg-preview.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Gemini_Generated_Image_jwtqv6jwtqv6jwtq-removebg-preview-232x300.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Gemini_Generated_Image_jwtqv6jwtqv6jwtq-removebg-preview.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Gemini_Generated_Image_jwtqv6jwtqv6jwtq-removebg-preview-150x150.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Gemini_Generated_Image_jwtqv6jwtqv6jwtq-removebg-preview.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Gemini_Generated_Image_jwtqv6jwtqv6jwtq-removebg-preview.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Gemini_Generated_Image_jwtqv6jwtqv6jwtq-removebg-preview.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Gemini_Generated_Image_jwtqv6jwtqv6jwtq-232x300.jpg": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Gemini_Generated_Image_jwtqv6jwtqv6jwtq.jpg",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Gemini_Generated_Image_jwtqv6jwtqv6jwtq-793x1024.jpg": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Gemini_Generated_Image_jwtqv6jwtqv6jwtq.jpg",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Gemini_Generated_Image_jwtqv6jwtqv6jwtq-150x150.jpg": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Gemini_Generated_Image_jwtqv6jwtqv6jwtq.jpg",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Gemini_Generated_Image_jwtqv6jwtqv6jwtq-768x992.jpg": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Gemini_Generated_Image_jwtqv6jwtqv6jwtq.jpg",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Gemini_Generated_Image_jwtqv6jwtqv6jwtq-650x650.jpg": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Gemini_Generated_Image_jwtqv6jwtqv6jwtq.jpg",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Gemini_Generated_Image_jwtqv6jwtqv6jwtq-912x650.jpg": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Gemini_Generated_Image_jwtqv6jwtqv6jwtq.jpg",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Gemini_Generated_Image_jwtqv6jwtqv6jwtq-650x1178.jpg": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Gemini_Generated_Image_jwtqv6jwtqv6jwtq.jpg",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Gemini_Generated_Image_jwtqv6jwtqv6jwtq.jpg": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Gemini_Generated_Image_jwtqv6jwtqv6jwtq.jpg",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/placeholder-300x200.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/placeholder.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/placeholder-1024x683.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/placeholder.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/placeholder-150x150.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/placeholder.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/placeholder-768x512.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/placeholder.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/placeholder-650x650.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/placeholder.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/placeholder-1200x650.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/placeholder.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/placeholder-650x800.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/placeholder.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/placeholder.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/placeholder.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-51-265x300.jpg": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-51.jpg",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-51-150x150.jpg": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-51.jpg",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-51.jpg": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-51.jpg",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-50-265x300.jpg": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-50.jpg",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-50-150x150.jpg": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-50.jpg",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-50.jpg": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-50.jpg",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-49-265x300.jpg": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-49.jpg",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-49-150x150.jpg": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-49.jpg",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-49.jpg": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-49.jpg",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-46-279x300.jpg": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-46.jpg",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-46-150x150.jpg": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-46.jpg",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-46.jpg": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-46.jpg",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-48-300x218.jpg": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-48.jpg",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-48-150x150.jpg": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-48.jpg",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-48.jpg": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-48.jpg",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-47-300x218.jpg": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-47.jpg",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-47-150x150.jpg": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-47.jpg",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-47.jpg": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-47.jpg",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-45-279x300.jpg": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-45.jpg",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-45-150x150.jpg": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-45.jpg",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-45.jpg": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-45.jpg",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/circle-2-150x150.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/circle-2.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/circle-2.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/circle-2.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-44-274x300.jpg": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-44.jpg",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-44-150x150.jpg": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-44.jpg",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-44.jpg": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-44.jpg",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-43-300x159.jpg": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-43.jpg",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-43-150x150.jpg": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-43.jpg",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-43.jpg": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-43.jpg",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/brand-5-1-150x40.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/brand-5-1.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/brand-5-1.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/brand-5-1.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/brand-2-1-150x32.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/brand-2-1.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/brand-2-1.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/brand-2-1.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/logo-150x35.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/logo.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/logo.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/logo.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/banner_author-278x300.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/banner_author.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/banner_author-150x150.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/banner_author.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/banner_author.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/banner_author.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-5-150x150.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-5.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-5.png": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-5.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/qi-addons-for-elementor-placeholder-300x200.png": "https://customwebpro.webmastery.tech/wp-content/uploads/qi-addons-for-elementor-placeholder.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/qi-addons-for-elementor-placeholder-1024x683.png": "https://customwebpro.webmastery.tech/wp-content/uploads/qi-addons-for-elementor-placeholder.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/qi-addons-for-elementor-placeholder-150x150.png": "https://customwebpro.webmastery.tech/wp-content/uploads/qi-addons-for-elementor-placeholder.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/qi-addons-for-elementor-placeholder-768x512.png": "https://customwebpro.webmastery.tech/wp-content/uploads/qi-addons-for-elementor-placeholder.png",
+    "https://customwebpro.webmastery.tech/wp-content/uploads/qi-addons-for-elementor-placeholder.png": "https://customwebpro.webmastery.tech/wp-content/uploads/qi-addons-for-elementor-placeholder.png"
+  },
+  "requests": [
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-json/wp/v2/pages?per_page=100&page=1",
+      "status": 200,
+      "kind": "api-pages",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-json/wp/v2/pages?per_page=100&page=1"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-json/wp/v2/posts?per_page=100&page=1",
+      "status": 200,
+      "kind": "api-posts",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-json/wp/v2/posts?per_page=100&page=1"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-json/wp/v2/media?per_page=100&page=1",
+      "status": 200,
+      "kind": "api-media",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-json/wp/v2/media?per_page=100&page=1"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-json/wp/v2/categories?per_page=100&page=1",
+      "status": 200,
+      "kind": "api-categories",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-json/wp/v2/categories?per_page=100&page=1"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-json/wp/v2/tags?per_page=100&page=1",
+      "status": 200,
+      "kind": "api-tags",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-json/wp/v2/tags?per_page=100&page=1"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-sitemap.xml",
+      "status": 200,
+      "kind": "sitemap",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-sitemap.xml"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-sitemap-posts-post-1.xml",
+      "status": 200,
+      "kind": "sitemap",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-sitemap-posts-post-1.xml"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-sitemap-posts-page-1.xml",
+      "status": 200,
+      "kind": "sitemap",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-sitemap-posts-page-1.xml"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-sitemap-posts-elementskit_template-1.xml",
+      "status": 200,
+      "kind": "sitemap",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-sitemap-posts-elementskit_template-1.xml"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-sitemap-taxonomies-category-1.xml",
+      "status": 200,
+      "kind": "sitemap",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-sitemap-taxonomies-category-1.xml"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-sitemap-users-1.xml",
+      "status": 200,
+      "kind": "sitemap",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-sitemap-users-1.xml"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/",
+      "status": 200,
+      "kind": "page",
+      "finalUrl": "https://customwebpro.webmastery.tech/"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/portfolio/",
+      "status": 200,
+      "kind": "page",
+      "finalUrl": "https://customwebpro.webmastery.tech/portfolio/"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/home/",
+      "status": 200,
+      "kind": "page",
+      "finalUrl": "https://customwebpro.webmastery.tech/home/"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/ai-writing-workflow-website-design/",
+      "status": 200,
+      "kind": "page",
+      "finalUrl": "https://customwebpro.webmastery.tech/ai-writing-workflow-website-design/"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/landing-page-for-a-financial-services-company/",
+      "status": 200,
+      "kind": "page",
+      "finalUrl": "https://customwebpro.webmastery.tech/landing-page-for-a-financial-services-company/"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/website-development-for-a-construction-company/",
+      "status": 200,
+      "kind": "page",
+      "finalUrl": "https://customwebpro.webmastery.tech/website-development-for-a-construction-company/"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/ai-powered-restaurant-website/",
+      "status": 200,
+      "kind": "page",
+      "finalUrl": "https://customwebpro.webmastery.tech/ai-powered-restaurant-website/"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/?elementskit_template=header",
+      "status": 200,
+      "kind": "page",
+      "finalUrl": "https://customwebpro.webmastery.tech/?elementskit_template=header"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/?elementskit_template=header-2",
+      "status": 200,
+      "kind": "page",
+      "finalUrl": "https://customwebpro.webmastery.tech/?elementskit_template=header-2"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/?elementskit_template=footer",
+      "status": 200,
+      "kind": "page",
+      "finalUrl": "https://customwebpro.webmastery.tech/?elementskit_template=footer"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/category/website-design/",
+      "status": 200,
+      "kind": "page",
+      "finalUrl": "https://customwebpro.webmastery.tech/category/website-design/"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/category/website-development/",
+      "status": 200,
+      "kind": "page",
+      "finalUrl": "https://customwebpro.webmastery.tech/category/website-development/"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/category/website-maintenance/",
+      "status": 200,
+      "kind": "page",
+      "finalUrl": "https://customwebpro.webmastery.tech/category/website-maintenance/"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/category/ai-development/",
+      "status": 200,
+      "kind": "page",
+      "finalUrl": "https://customwebpro.webmastery.tech/category/ai-development/"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/author/webmastery26/",
+      "status": 200,
+      "kind": "page",
+      "finalUrl": "https://customwebpro.webmastery.tech/author/webmastery26/"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/elementor/css/post-12.css?ver=1792120637",
+      "status": 200,
+      "kind": "stylesheet",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-content/uploads/elementor/css/post-12.css?ver=1792120637"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/elementor/css/post-175.css?ver=1792211685",
+      "status": 200,
+      "kind": "stylesheet",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-content/uploads/elementor/css/post-175.css?ver=1792211685"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/elementor/css/post-233.css?ver=1792123090",
+      "status": 200,
+      "kind": "stylesheet",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-content/uploads/elementor/css/post-233.css?ver=1792123090"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/elementor/css/post-244.css?ver=1792123594",
+      "status": 200,
+      "kind": "stylesheet",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-content/uploads/elementor/css/post-244.css?ver=1792123594"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/elementor/css/post-66.css?ver=1792126556",
+      "status": 200,
+      "kind": "stylesheet",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-content/uploads/elementor/css/post-66.css?ver=1792126556"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/elementor/css/post-107.css?ver=1792126753",
+      "status": 200,
+      "kind": "stylesheet",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-content/uploads/elementor/css/post-107.css?ver=1792126753"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/elementor/css/base-desktop.css?ver=6ad1973de2c10",
+      "status": 200,
+      "kind": "stylesheet",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-content/uploads/elementor/css/base-desktop.css?ver=6ad1973de2c10"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/elementor/css/local-233-frontend-desktop.css?ver=6ad1a0e7862e9",
+      "status": 200,
+      "kind": "stylesheet",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-content/uploads/elementor/css/local-233-frontend-desktop.css?ver=6ad1a0e7862e9"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/elementor/css/local-244-frontend-desktop.css?ver=6ad1ab128fcce",
+      "status": 200,
+      "kind": "stylesheet",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-content/uploads/elementor/css/local-244-frontend-desktop.css?ver=6ad1ab128fcce"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/elementor/css/base-mobile.css?ver=6ad1973de2c10",
+      "status": 200,
+      "kind": "stylesheet",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-content/uploads/elementor/css/base-mobile.css?ver=6ad1973de2c10"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/elementor/css/post-326.css?ver=1792126337",
+      "status": 200,
+      "kind": "stylesheet",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-content/uploads/elementor/css/post-326.css?ver=1792126337"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/elementor/css/post-16.css?ver=1792304407",
+      "status": 200,
+      "kind": "stylesheet",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-content/uploads/elementor/css/post-16.css?ver=1792304407"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/elementor/css/post-310.css?ver=1792125903",
+      "status": 200,
+      "kind": "stylesheet",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-content/uploads/elementor/css/post-310.css?ver=1792125903"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/elementor/css/post-295.css?ver=1792125596",
+      "status": 200,
+      "kind": "stylesheet",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-content/uploads/elementor/css/post-295.css?ver=1792125596"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/elementor/css/post-280.css?ver=1792125387",
+      "status": 200,
+      "kind": "stylesheet",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-content/uploads/elementor/css/post-280.css?ver=1792125387"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/elementor/css/post-265.css?ver=1792124827",
+      "status": 200,
+      "kind": "stylesheet",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-content/uploads/elementor/css/post-265.css?ver=1792124827"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/academy.png",
+      "status": 200,
+      "kind": "image",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/academy.png"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Untitled-3.webp",
+      "status": 200,
+      "kind": "image",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Untitled-3.webp"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Untitled-1.webp",
+      "status": 200,
+      "kind": "image",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Untitled-1.webp"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Modern-SaaS-UI-2.webp",
+      "status": 200,
+      "kind": "image",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Modern-SaaS-UI-2.webp"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Confident-Business-Portrait-Cutout.png",
+      "status": 200,
+      "kind": "image",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Confident-Business-Portrait-Cutout.png"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Untitled-2.webp",
+      "status": 200,
+      "kind": "image",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Untitled-2.webp"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Modern-SaaS-workspace-with-sleek-devices.webp",
+      "status": 200,
+      "kind": "image",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Modern-SaaS-workspace-with-sleek-devices.webp"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Construction-company-website-1.webp",
+      "status": 200,
+      "kind": "image",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Construction-company-website-1.webp"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Restaurant-Website-UI-Design.webp",
+      "status": 200,
+      "kind": "image",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Restaurant-Website-UI-Design.webp"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Modern-SaaS-UI-1.webp",
+      "status": 200,
+      "kind": "image",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Modern-SaaS-UI-1.webp"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Construction-company-website-3.webp",
+      "status": 200,
+      "kind": "image",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Construction-company-website-3.webp"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Construction-company-website-2.webp",
+      "status": 200,
+      "kind": "image",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Construction-company-website-2.webp"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Restaurant-Website-UI-Design-1.webp",
+      "status": 200,
+      "kind": "image",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Restaurant-Website-UI-Design-1.webp"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/83C678C1-9AE5-4D4C-A92C-6AB0CA218E36.webp",
+      "status": 200,
+      "kind": "image",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/83C678C1-9AE5-4D4C-A92C-6AB0CA218E36.webp"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/31cb8c7d-5782-4544-a48a-c8445bdea291.webp",
+      "status": 200,
+      "kind": "image",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/31cb8c7d-5782-4544-a48a-c8445bdea291.webp"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/95925B1B-C281-4748-B231-F723CF6822ED.webp",
+      "status": 200,
+      "kind": "image",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/95925B1B-C281-4748-B231-F723CF6822ED.webp"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-7.png",
+      "status": 200,
+      "kind": "image",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-7.png"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-60.jpg",
+      "status": 200,
+      "kind": "image",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-60.jpg"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-8.png",
+      "status": 200,
+      "kind": "image",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-8.png"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-3.png",
+      "status": 200,
+      "kind": "image",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-3.png"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-5.png",
+      "status": 200,
+      "kind": "image",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-5.png"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-9.png",
+      "status": 200,
+      "kind": "image",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-9.png"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-6.png",
+      "status": 200,
+      "kind": "image",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-6.png"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-4-1.png",
+      "status": 200,
+      "kind": "image",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-4-1.png"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-4.png",
+      "status": 200,
+      "kind": "image",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-4.png"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Screenshot_2-removebg-preview.png",
+      "status": 200,
+      "kind": "image",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Screenshot_2-removebg-preview.png"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-1.png",
+      "status": 200,
+      "kind": "image",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-1.png"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview.png",
+      "status": 200,
+      "kind": "image",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview.png"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Screenshot_3-removebg-preview.png",
+      "status": 200,
+      "kind": "image",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Screenshot_3-removebg-preview.png"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-2.png",
+      "status": 200,
+      "kind": "image",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/image-removebg-preview-2.png"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Screenshot_1.png",
+      "status": 200,
+      "kind": "image",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Screenshot_1.png"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-15-at-1.10.11-PM.jpeg",
+      "status": 200,
+      "kind": "image",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-15-at-1.10.11-PM.jpeg"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/woocommerce-placeholder.webp",
+      "status": 200,
+      "kind": "image",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-content/uploads/woocommerce-placeholder.webp"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/WhatsApp_Image_2026-10-15_at_1.10.11_PM-removebg-preview.png",
+      "status": 200,
+      "kind": "image",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/WhatsApp_Image_2026-10-15_at_1.10.11_PM-removebg-preview.png"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Screenshot-2.png",
+      "status": 200,
+      "kind": "image",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Screenshot-2.png"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/footer-logo.png",
+      "status": 200,
+      "kind": "image",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/footer-logo.png"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Screenshot-removebg-preview.png",
+      "status": 200,
+      "kind": "image",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Screenshot-removebg-preview.png"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Gemini_Generated_Image_jwtqv6jwtqv6jwtq-removebg-preview.png",
+      "status": 200,
+      "kind": "image",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Gemini_Generated_Image_jwtqv6jwtqv6jwtq-removebg-preview.png"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Gemini_Generated_Image_3g38z63g38z63g38.jpg",
+      "status": 200,
+      "kind": "image",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Gemini_Generated_Image_3g38z63g38z63g38.jpg"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/cropped-Screenshot.png",
+      "status": 200,
+      "kind": "image",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/cropped-Screenshot.png"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Screenshot.png",
+      "status": 200,
+      "kind": "image",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Screenshot.png"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Gemini_Generated_Image_dr4ojrdr4ojrdr4o-removebg-preview.png",
+      "status": 200,
+      "kind": "image",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Gemini_Generated_Image_dr4ojrdr4ojrdr4o-removebg-preview.png"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Gemini_Generated_Image_jwtqv6jwtqv6jwtq.jpg",
+      "status": 200,
+      "kind": "image",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Gemini_Generated_Image_jwtqv6jwtqv6jwtq.jpg"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-46.jpg",
+      "status": 200,
+      "kind": "image",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-46.jpg"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-51.jpg",
+      "status": 200,
+      "kind": "image",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-51.jpg"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-50.jpg",
+      "status": 200,
+      "kind": "image",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-50.jpg"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-49.jpg",
+      "status": 200,
+      "kind": "image",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-49.jpg"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/placeholder.png",
+      "status": 200,
+      "kind": "image",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/placeholder.png"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-48.jpg",
+      "status": 200,
+      "kind": "image",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-48.jpg"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-43.jpg",
+      "status": 200,
+      "kind": "image",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-43.jpg"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-47.jpg",
+      "status": 200,
+      "kind": "image",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-47.jpg"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-45.jpg",
+      "status": 200,
+      "kind": "image",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-45.jpg"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/circle-2.png",
+      "status": 200,
+      "kind": "image",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/circle-2.png"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-44.jpg",
+      "status": 200,
+      "kind": "image",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-44.jpg"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/brand-5-1.png",
+      "status": 200,
+      "kind": "image",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/brand-5-1.png"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/logo.png",
+      "status": 200,
+      "kind": "image",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/logo.png"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/brand-4-1.png",
+      "status": 200,
+      "kind": "image",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/brand-4-1.png"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/brand-1-1.png",
+      "status": 200,
+      "kind": "image",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/brand-1-1.png"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/brand-2-1.png",
+      "status": 200,
+      "kind": "image",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/brand-2-1.png"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/brand-3-1.png",
+      "status": 200,
+      "kind": "image",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/brand-3-1.png"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-56.jpg",
+      "status": 200,
+      "kind": "image",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-56.jpg"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/since_1998.png",
+      "status": 200,
+      "kind": "image",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/since_1998.png"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-54.jpg",
+      "status": 200,
+      "kind": "image",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-54.jpg"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-53.jpg",
+      "status": 200,
+      "kind": "image",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-53.jpg"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-55.jpg",
+      "status": 200,
+      "kind": "image",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-55.jpg"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/banner_author.png",
+      "status": 200,
+      "kind": "image",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/banner_author.png"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-5.png",
+      "status": 200,
+      "kind": "image",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/New-Project-5.png"
+    },
+    {
+      "url": "https://customwebpro.webmastery.tech/wp-content/uploads/qi-addons-for-elementor-placeholder.png",
+      "status": 200,
+      "kind": "image",
+      "finalUrl": "https://customwebpro.webmastery.tech/wp-content/uploads/qi-addons-for-elementor-placeholder.png"
+    }
+  ],
+  "failures": []
+}

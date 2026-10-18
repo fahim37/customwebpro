@@ -1,0 +1,239 @@
+{
+  "source": "https://customwebpro.webmastery.tech/",
+  "name": "CustomWeb Pro",
+  "founder": "Biplob Hossain",
+  "profileUrl": "https://www.fiverr.com/customweb_pro",
+  "sourceClaims": {
+    "experience": "6+ years",
+    "clients": "1.5K+",
+    "aiGigRating": "4.9 (265)",
+    "wordpressGigRating": "5.0 (5)"
+  },
+  "services": [
+    {
+      "title": "AI Mobile Application Development",
+      "description": "Develop innovative AI-powered mobile applications that deliver smarter, faster, personalized user experiences."
+    },
+    {
+      "title": "AI Website Development",
+      "description": "Build intelligent, modern websites using AI-powered tools, automation, and innovative development techniques."
+    },
+    {
+      "title": "Interactive Online Coding Lessons",
+      "description": "Learn coding online through interactive lessons, practical exercises, and hands-on programming projects."
+    }
+  ],
+  "projects": [
+    {
+      "title": "AI Writing & Workflow Website Design",
+      "url": "https://customwebpro.webmastery.tech/ai-writing-workflow-website-design/",
+      "description": "My client wanted a modern and engaging website for their AI-powered writing and workflow optimization platform. They needed something that looked professional yet futuristic, with a smooth user experience and clear feature presentation. I designed a dark-themed interface with glowing accents, dynamic pricing sections, and elegant typography to create a premium and tech-driven feel. The site showcases features like AI writing tools, workflow automation, and third-party integrations, all arranged in a clean and intuitive layout. I also included sections for client testimonials, team members, and FAQs to make the platform more trustworthy and user-friendly. My client was very satisfied with the final result, appreciating both the sleek visual style and the smooth overall functionality.",
+      "priceRange": "$5000-$10000",
+      "duration": "1-3 months",
+      "industry": "Artificial intelligence (AI)",
+      "images": [
+        {
+          "source": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Untitled-1.webp",
+          "localPath": "/images/original/Untitled-1.webp",
+          "width": 1080,
+          "height": 853
+        },
+        {
+          "source": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Untitled-2.webp",
+          "localPath": "/images/original/Untitled-2.webp",
+          "width": 1080,
+          "height": 853
+        },
+        {
+          "source": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Untitled-3.webp",
+          "localPath": "/images/original/Untitled-3.webp",
+          "width": 1080,
+          "height": 853
+        }
+      ]
+    },
+    {
+      "title": "Landing Page for a Financial Services Company",
+      "url": "https://customwebpro.webmastery.tech/landing-page-for-a-financial-services-company/",
+      "description": "Designed and developed a modern, responsive SaaS website focused on user experience, performance, and conversions. The project included a clean landing page, feature showcase, pricing section, testimonials, and elements. Built with a scalable, mobile friendly design to help businesses present their software products professionally and increase user engagement.",
+      "priceRange": "$5000-$10000",
+      "duration": "1-3 months",
+      "industry": "Financial & Business Services +2",
+      "images": [
+        {
+          "source": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Modern-SaaS-UI-1.webp",
+          "localPath": "/images/original/Modern-SaaS-UI-1.webp",
+          "width": 1260,
+          "height": 682
+        },
+        {
+          "source": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Modern-SaaS-workspace-with-sleek-devices.webp",
+          "localPath": "/images/original/Modern-SaaS-workspace-with-sleek-devices.webp",
+          "width": 1305,
+          "height": 1206
+        },
+        {
+          "source": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Modern-SaaS-UI-2.webp",
+          "localPath": "/images/original/Modern-SaaS-UI-2.webp",
+          "width": 584,
+          "height": 454
+        }
+      ]
+    },
+    {
+      "title": "Website Development for a Construction Company",
+      "url": "https://customwebpro.webmastery.tech/website-development-for-a-construction-company/",
+      "description": "Designed and developed a professional, responsive website for a construction company to showcase its services, completed projects, and industry expertise. The website features a modern layout, intuitive navigation, project gallery and mobile friendly performance to strengthen the company's online presence and generate new client inquiries.",
+      "priceRange": "$2500-$5000",
+      "duration": "1-3 months",
+      "industry": "Construction +2",
+      "images": [
+        {
+          "source": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Construction-company-website-1.webp",
+          "localPath": "/images/original/Construction-company-website-1.webp",
+          "width": 648,
+          "height": 601
+        },
+        {
+          "source": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Construction-company-website-2.webp",
+          "localPath": "/images/original/Construction-company-website-2.webp",
+          "width": 651,
+          "height": 601
+        },
+        {
+          "source": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Construction-company-website-3.webp",
+          "localPath": "/images/original/Construction-company-website-3.webp",
+          "width": 650,
+          "height": 594
+        }
+      ]
+    },
+    {
+      "title": "AI Powered Restaurant Website",
+      "url": "https://customwebpro.webmastery.tech/ai-powered-restaurant-website/",
+      "description": "Developed a modern, responsive restaurant website with AI powered features to enhance the customer experience. The platform includes dynamic food menus, smart dish recommendations, AI powered menu search, online ordering, table reservations, chef profiles, customer reviews, and a chatbot for instant assistance. Built with a clean, mobile friendly design, the website helps restaurants increase customer engagement, simplify reservations, and boost online orders.",
+      "priceRange": "$2500-$5000",
+      "duration": "7-30 days",
+      "industry": "Food & Beverage +2",
+      "images": [
+        {
+          "source": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Restaurant-Website-UI-Design-1.webp",
+          "localPath": "/images/original/Restaurant-Website-UI-Design-1.webp",
+          "width": 1448,
+          "height": 1086
+        },
+        {
+          "source": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/Restaurant-Website-UI-Design.webp",
+          "localPath": "/images/original/Restaurant-Website-UI-Design.webp",
+          "width": 718,
+          "height": 2188
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "What services does CustomWeb Pro offer?",
+      "answer": "CustomWeb Pro offers AI-powered website development, mobile app development, full-stack web solutions, SaaS platforms, AI agents, chatbots, business automation, WordPress website design, and interactive online coding lessons."
+    },
+    {
+      "question": "Can you build a custom AI-powered website or mobile application for my business?",
+      "answer": "Yes! I develop custom AI-powered websites and mobile applications tailored to your business goals. From AI integrations and intelligent chatbots to scalable web and mobile solutions, I help turn your ideas into practical digital products."
+    },
+    {
+      "question": "Do you offer WordPress website design and redesign services?",
+      "answer": "Yes! I provide professional WordPress website design, redesign, customization, and development services. Whether you need a new business website or want to improve an existing one, I can help create a modern, responsive, and user-friendly experience."
+    },
+    {
+      "question": "Do you provide ongoing support and customization after project delivery?",
+      "answer": "Yes! I can help with bug fixes, feature enhancements, website improvements, and additional functionality based on your project requirements. The scope of ongoing support and maintenance can be discussed before starting the project."
+    },
+    {
+      "question": "How can I get started, and how much does a project cost?",
+      "answer": "Getting started is easy! Share your idea, project requirements, and goals with me. I’ll review your needs and recommend a suitable solution, timeline, and budget. Project-based services start at $90, AI and full-stack development projects start at $150, and hourly services start at $25, depending on the scope and complexity of the work."
+    }
+  ],
+  "testimonials": [
+    {
+      "author": "mordechaib",
+      "country": "Israel",
+      "quote": "Pros absolutely great team to work with",
+      "stars": 5,
+      "image": "/images/original/83C678C1-9AE5-4D4C-A92C-6AB0CA218E36.webp",
+      "sourceImage": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/83C678C1-9AE5-4D4C-A92C-6AB0CA218E36.webp"
+    },
+    {
+      "author": "purebullion",
+      "country": "United States",
+      "quote": "Delivered the first phase on time and moving on to the second phase. Easy to work with",
+      "stars": 5,
+      "image": "/images/original/95925B1B-C281-4748-B231-F723CF6822ED.webp",
+      "sourceImage": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/95925B1B-C281-4748-B231-F723CF6822ED.webp"
+    },
+    {
+      "author": "v2alarry",
+      "country": "United States",
+      "quote": "Phase 1 is an important step in the project and we have a good foundation to move forward with.",
+      "stars": 5,
+      "image": "/images/original/31cb8c7d-5782-4544-a48a-c8445bdea291.webp",
+      "sourceImage": "https://customwebpro.webmastery.tech/wp-content/uploads/2026/10/31cb8c7d-5782-4544-a48a-c8445bdea291.webp"
+    }
+  ],
+  "pricing": {
+    "hourly": {
+      "currency": "USD",
+      "price": 25
+    },
+    "ai": [
+      {
+        "tier": "Basic",
+        "title": "STARTER AI WEB APPLICATION",
+        "price": 150,
+        "days": 7,
+        "revisions": "3 Revisions"
+      },
+      {
+        "tier": "Standard",
+        "title": "CUSTOM AI WEBSITE OR AI MOBILE APP",
+        "price": 1150,
+        "days": 30,
+        "revisions": "Unlimited Revisions"
+      },
+      {
+        "tier": "Premium",
+        "title": "BESPOKE AI WEBSITE OR AI MOBILE APP",
+        "price": 2250,
+        "days": 30,
+        "revisions": "Unlimited Revisions"
+      }
+    ],
+    "wordpress": [
+      {
+        "tier": "Basic",
+        "title": "1 Page Simple Website",
+        "price": 90,
+        "days": 3,
+        "pages": 1
+      },
+      {
+        "tier": "Standard",
+        "title": "3-5 Page Website (Medium Business)",
+        "price": 290,
+        "days": 5,
+        "pages": 5
+      },
+      {
+        "tier": "Premium",
+        "title": "Premium eCommerce Website",
+        "price": 590,
+        "days": 7,
+        "pages": 10,
+        "products": 20
+      }
+    ]
+  },
+  "contact": {
+    "sourceForm": "WordPress Elementor form with Name, Email and Message; no public email, telephone or reusable public submission endpoint was published.",
+    "externalUrl": "https://www.fiverr.com/customweb_pro"
+  }
+}
